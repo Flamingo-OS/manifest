@@ -19,6 +19,9 @@
     <!-- Device -->
     <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
 
+    <!-- External -->
+    <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
+
     <!-- Vendor -->
     <project path="vendor/flamingo" name="vendor_flamingo" remote="flamingo" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa-blobs" clone-depth="1" />
