@@ -44,4 +44,5 @@
     <remove-project name="platform/hardware/nxp/secure_element" />
 
     <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+    <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
 </manifest>

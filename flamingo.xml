@@ -26,6 +26,7 @@
     <!-- Vendor -->
     <project path="vendor/flamingo" name="vendor_flamingo" remote="flamingo" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa-blobs" clone-depth="1" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="aospa" />
     <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom-opensource_vibrator" remote="aospa" />
 
 </manifest>
