@@ -14,8 +14,21 @@
           fetch="https://android.googlesource.com"
           revision="refs/tags/android-12.1.0_r5"/>
 
+  <remote name="flamingo"
+          fetch="ssh://git@github.com/Flamingo-OS/"
+          revision="A12.1"/>
+  
+  <remote name="aospa"
+          fetch="https://github.com/AOSPA/"
+          revision="sapphire"/>
+
+  <remote name="aospa-blobs"
+          fetch="https://github.com/ThankYouMario/"
+          revision="sapphire"/>
+
   <include name="system.xml"/>
   <include name="vendor.xml"/>
   <include name="remove.xml" />
+  <include name="flamingo.xml" />
 
 </manifest>
