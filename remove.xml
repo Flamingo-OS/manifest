@@ -42,4 +42,6 @@
 
     <remove-project name="platform/hardware/nxp/nfc" />
     <remove-project name="platform/hardware/nxp/secure_element" />
+
+    <remove-project name="platform/vendor/qcom-opensource/vibrator" />
 </manifest>
