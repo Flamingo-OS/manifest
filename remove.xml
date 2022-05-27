@@ -38,4 +38,7 @@
     <remove-project name="platform/external/erofs-utils" />
 
     <remove-project name="kernel/msm-5.4" />
+
+    <remove-project name="platform/hardware/nxp/nfc" />
+    <remove-project name="platform/hardware/nxp/secure_element" />
 </manifest>
