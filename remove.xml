@@ -51,6 +51,10 @@
     <remove-project name="platform/hardware/qcom/display" />
     <remove-project name="platform/hardware/qcom/media" />
 
+    <remove-project name="platform/packages/apps/SnapdragonCamera"/>
+
+    <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
+
     <remove-project name="platform/vendor/qcom-opensource/location" />
     <remove-project name="platform/vendor/qcom-opensource/power" />
     <remove-project name="platform/vendor/qcom-opensource/vibrator" />
