@@ -46,9 +46,9 @@
     <remove-project name="kernel/build" />
     <remove-project name="kernel/msm-5.4" />
 
+    <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/nxp/nfc" />
     <remove-project name="platform/hardware/nxp/secure_element" />
-
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/display" />
     <remove-project name="platform/hardware/qcom/media" />
