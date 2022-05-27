@@ -21,6 +21,10 @@
 
     <!-- Device -->
     <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
+    <project path="device/qcom/vendor-common" name="android_device_qcom_vendor-common" remote="aospa" />
+    <project path="device/qcom/kernelscripts" name="android_kernel_build" remote="aospa" >
+        <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+    </project>
 
     <!-- External -->
     <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
