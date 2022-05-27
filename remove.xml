@@ -36,6 +36,7 @@
     <remove-project name="platform/build/soong" />
 
     <remove-project name="platform/external/erofs-utils" />
+    <remove-project name="platform/external/fastrpc" />
 
     <remove-project name="kernel/msm-5.4" />
 
