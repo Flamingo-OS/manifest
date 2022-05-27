@@ -16,6 +16,9 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- CTS -->
+    <project path="cts" name="platform/cts" remote="aosp" />
+
     <!-- Device -->
     <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
 
