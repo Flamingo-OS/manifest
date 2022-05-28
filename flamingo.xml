@@ -34,6 +34,9 @@
     <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
     <project path="external/fastrpc" name="android_external_fastrpc" remote="aospa" />
 
+    <!-- Framework -->
+    <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
+
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>
 

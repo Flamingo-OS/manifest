@@ -43,6 +43,8 @@
     <remove-project name="platform/external/erofs-utils" />
     <remove-project name="platform/external/fastrpc" />
 
+    <remove-project name="platform/frameworks/base" />
+
     <remove-project name="kernel/build" />
     <remove-project name="kernel/msm-5.4" />
 
