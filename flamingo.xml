@@ -45,6 +45,7 @@
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="flamingo"/>
+    <project path="system/sepolicy" name="system_sepolicy" remote="flamingo"/>
 
     <!-- Vendor -->
     <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="flamingo" />
