@@ -17,7 +17,11 @@
   <remote name="flamingo"
           fetch="ssh://git@github.com/Flamingo-OS/"
           revision="A12.1"/>
-  
+
+  <remote name="flamingo-gitlab"
+          fetch="ssh://git@gitlab.com/Flamingo-OS/"
+          revision="A12.1"/>
+
   <remote name="aospa"
           fetch="https://github.com/AOSPA/"
           revision="sapphire"/>
