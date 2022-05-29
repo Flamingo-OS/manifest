@@ -28,6 +28,7 @@
         <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
     </project>
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="flamingo" />
+    <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="flamingo"/>
 
     <!-- External -->
     <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
