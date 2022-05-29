@@ -58,4 +58,8 @@
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="flamingo" />
     <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="aospa-blobs" revision="12" clone-depth="1" />
 
+    <!-- Gapps -->
+    <project path="vendor/google/gms" name="vendor_google_gms" remote="flamingo-gitlab" clone-depth="1" />
+    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="flamingo-gitlab" clone-depth="1" />
+
 </manifest>
