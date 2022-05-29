@@ -35,12 +35,16 @@
 
     <!-- Framework -->
     <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
+    <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>
 
     <!-- Packages -->
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>
+
+    <!-- System -->
+    <project path="system/core" name="system_core" remote="flamingo"/>
 
     <!-- Vendor -->
     <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="flamingo" />

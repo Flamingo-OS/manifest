@@ -42,6 +42,7 @@
     <remove-project name="platform/external/fastrpc" />
 
     <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/native" />
 
     <remove-project name="kernel/build" />
     <remove-project name="kernel/msm-5.4" />
@@ -55,6 +56,8 @@
 
     <remove-project name="platform/packages/apps/SnapdragonCamera"/>
     <remove-project name="platform/packages/services/Telecomm"/>
+
+    <remove-project name="platform/system/core"/>
 
     <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
     <remove-project name="platform/vendor/codeaurora/telephony"/>
