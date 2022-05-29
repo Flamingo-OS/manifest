@@ -42,7 +42,7 @@
     <project path="vendor/flamingo" name="vendor_flamingo" remote="flamingo" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa-blobs" clone-depth="1" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
-    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="aospa" />
+    <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="flamingo" />
     <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom-opensource_vibrator" remote="aospa" />
     <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="aospa-blobs" revision="12" clone-depth="1" />
 
