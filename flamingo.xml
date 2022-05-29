@@ -39,7 +39,11 @@
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>
 
+    <!-- Packages -->
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>
+
     <!-- Vendor -->
+    <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="flamingo" />
     <project path="vendor/flamingo" name="vendor_flamingo" remote="flamingo" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa-blobs" clone-depth="1" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
