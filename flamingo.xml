@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- ART -->
+    <project path="art" name="art" remote="flamingo"/>
+
+    <!-- Bionic -->
+    <project path="bionic" name="bionic" remote="flamingo"/>
+
     <!-- Recovery -->
     <project path="bootable/recovery" name="bootable_recovery" remote="flamingo"/>
 
