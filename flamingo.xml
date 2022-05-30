@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Recovery -->
+    <project path="bootable/recovery" name="bootable_recovery" remote="flamingo"/>
+
     <!-- Build -->
     <project path="build/make" name="build_make" remote="flamingo">
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -31,8 +34,11 @@
     <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="flamingo"/>
 
     <!-- External -->
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />
     <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
     <project path="external/fastrpc" name="external_fastrpc" remote="flamingo" />
+    <project path="external/gptfdisk" name="external_gptfdisk" remote="flamingo" />
+    <project path="external/mksh" name="external_mksh" remote="flamingo" />
 
     <!-- Framework -->
     <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
@@ -44,11 +50,14 @@
     <!-- Packages -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="flamingo"/>
+    <project path="packages/modules/adb" name="packages_modules_adb" remote="flamingo"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="flamingo"/>
+    <project path="system/libziparchive" name="system_libziparchive" remote="flamingo"/>
     <project path="system/sepolicy" name="system_sepolicy" remote="flamingo"/>
+    <project path="system/update_engine" name="system_update_engine" remote="flamingo"/>
 
     <!-- Vendor -->
     <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="flamingo" />

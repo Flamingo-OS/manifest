@@ -34,13 +34,18 @@
     <remove-project name="device/qcom/vendor-common" />
     <remove-project name="device/sample" />
 
+    <remove-project name="platform/bootable/recovery" />
+
     <remove-project name="platform/build_repo" />
     <remove-project name="platform/build/soong" />
 
     <remove-project name="platform/cts"/>
 
+    <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/erofs-utils" />
     <remove-project name="platform/external/fastrpc" />
+    <remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/mksh" />
 
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
@@ -58,10 +63,13 @@
     <remove-project name="platform/packages/apps/Settings"/>
     <remove-project name="platform/packages/apps/SnapdragonCamera"/>
     <remove-project name="platform/packages/apps/ThemePicker"/>
+    <remove-project name="platform/packages/modules/adb"/>
     <remove-project name="platform/packages/services/Telecomm"/>
 
     <remove-project name="platform/system/core"/>
+    <remove-project name="platform/system/libziparchive"/>
     <remove-project name="platform/system/sepolicy"/>
+    <remove-project name="platform/system/update_engine"/>
 
     <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
     <remove-project name="platform/vendor/codeaurora/telephony"/>
