@@ -22,6 +22,10 @@
           fetch="ssh://git@gitlab.com/Flamingo-OS/"
           revision="A12.1"/>
 
+  <remote name="flamingo-devices"
+          fetch="ssh://git@github.com/FlamingoOS-Devices/"
+          revision="A12.1"/>
+
   <remote name="aospa"
           fetch="https://github.com/AOSPA/"
           revision="sapphire"/>
