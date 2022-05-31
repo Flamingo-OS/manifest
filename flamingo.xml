@@ -58,6 +58,7 @@
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="flamingo"/>
     <project path="packages/modules/adb" name="packages_modules_adb" remote="flamingo"/>
+    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="flamingo"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>
 
     <!-- System -->
