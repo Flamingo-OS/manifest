@@ -47,6 +47,7 @@
     <project path="external/mksh" name="external_mksh" remote="flamingo" />
 
     <!-- Framework -->
+    <project path="frameworks/av" name="frameworks_av" remote="flamingo"/>
     <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
     <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
 
