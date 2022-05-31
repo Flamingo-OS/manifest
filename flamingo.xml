@@ -52,6 +52,7 @@
 
     <!-- Hardware -->
     <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>
+    <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="flamingo" />
 
     <!-- Packages -->
     <project path="packages/apps/FlamingoSettings" name="packages_apps_FlamingoSettings" remote="flamingo"/>

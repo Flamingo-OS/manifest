@@ -2,7 +2,6 @@
 <manifest>
 
     <!-- Hardware -->
-    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
     <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 
     <!-- External -->
