@@ -34,14 +34,14 @@
           fetch="https://github.com/ThankYouMario/"
           revision="sapphire"/>
 
-  <remote name="lineage"
-          fetch="https://github.com/LineageOS/"
-          revision="lineage-19.1"/>
+  <remote name="github"
+          fetch="ssh://git@github.com/"/>
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
   <include name="remove.xml" />
   <include name="flamingo.xml" />
   <include name="lineage.xml" />
+  <include name="proton.xml" />
 
 </manifest>
