@@ -42,5 +42,6 @@
   <include name="vendor.xml"/>
   <include name="remove.xml" />
   <include name="flamingo.xml" />
+  <include name="lineage.xml" />
 
 </manifest>
