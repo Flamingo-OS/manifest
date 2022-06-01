@@ -53,6 +53,7 @@
     <!-- Framework -->
     <project path="frameworks/av" name="frameworks_av" remote="flamingo"/>
     <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
+    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="flamingo"/>
     <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
 
     <!-- Hardware -->
