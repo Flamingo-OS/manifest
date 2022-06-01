@@ -1,0 +1,62 @@
+Flamingo OS
+==============
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+Note: Syncing requires ssh for all of our repositories (including gitlab, make SURE to add it there or else sync will fail), so make sure that ssh is setup properly.
+Here's how to do that https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+To initialize your local repository using the manifest for Flamingo :-
+
+```bash
+repo init -u git@github.com:Flamingo-OS/manifest.git -b A12.1
+```
+Then to sync up:
+```bash
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+Building the source
+---------------
+
+The source at Flamingo OS is well configured for building.
+
+Source the build scripts:
+```bash
+source build/envsetup.sh
+```
+
+You can sync the device specific repositories with this command (it is just a wrapper around roomservice): 
+```bash
+fetchrepos <device>
+```
+
+To build for a device:
+```bash
+launch <device> <build-variant> [OPTIONS]
+```
+For a full list of available options, run this command after sourcing build scripts:
+```bash
+hmm
+```
+You will now see the manual for using different functions available, including flamingo specific functions.
+
+If you are willing to maintain a device and has got the necessary skills with git and a basic understanding of how everything works with aosp then ping at https://t.me/darknanobot in telegram.
+
+## Thanks section ##
+
+Here's my thanks to people who made this possible:
+
+* Google for AOSP
+* ABC
+* AOSPA
+* Arrow OS
+* DerpFest
+* LineageOS
+* POSP
+* Statix OS
+* YAAP
