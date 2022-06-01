@@ -36,6 +36,9 @@
 
   <remote name="github"
           fetch="ssh://git@github.com/"/>
+  
+  <remote name="gitlab"
+          fetch="ssh://git@gitlab.com/"/>
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
