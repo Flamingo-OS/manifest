@@ -84,6 +84,7 @@
     <project path="vendor/flamingo" name="vendor_flamingo" remote="flamingo" />
     <project path="vendor/lawnchair" name="vendor_lawnchair" remote="flamingo" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa-blobs" clone-depth="1" />
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
     <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="caf_system" revision="refs/tags/LA.QSSI.11.0.r1-16200-qssi.0" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="flamingo" />

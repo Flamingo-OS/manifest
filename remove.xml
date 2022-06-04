@@ -89,4 +89,5 @@
     <remove-project name="platform/vendor/qcom-opensource/power" />
     <remove-project name="platform/vendor/qcom-opensource/vibrator" />
     <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+    <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
 </manifest>
