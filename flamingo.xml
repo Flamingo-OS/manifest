@@ -87,6 +87,7 @@
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
     <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="caf_system" revision="refs/tags/LA.QSSI.11.0.r1-16200-qssi.0" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="flamingo" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="flamingo" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="flamingo" />
     <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="aospa-blobs" revision="12" clone-depth="1" />
