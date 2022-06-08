@@ -69,6 +69,7 @@
 
     <remove-project name="platform/packages/apps/Browser2"/>
     <remove-project name="platform/packages/apps/Camera2"/>
+    <remove-project name="platform/packages/apps/Launcher3"/>
     <remove-project name="platform/packages/apps/Settings"/>
     <remove-project name="platform/packages/apps/SnapdragonCamera"/>
     <remove-project name="platform/packages/apps/ThemePicker"/>
