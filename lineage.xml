@@ -2,8 +2,8 @@
 <manifest>
 
     <remote name="lineage"
-            fetch="https://github.com/LineageOS/"
-            revision="lineage-19.1"/>
+        fetch="https://github.com/LineageOS/"
+        revision="lineage-19.1"/>
 
     <!-- Hardware -->
     <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />

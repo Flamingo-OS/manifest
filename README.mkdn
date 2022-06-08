@@ -45,7 +45,7 @@ hmm
 ```
 You will now see the manual for using different functions available, including flamingo specific functions.
 
-If you are willing to maintain a device and has got the necessary skills with git and a basic understanding of how everything works with aosp then ping at https://t.me/darknanobot in telegram.
+If you are willing to maintain a device and has got the necessary skills with git and a basic understanding of how everything works with android and the build system then dm at https://t.me/darknanobot.
 
 ## Thanks section ##
 
@@ -55,7 +55,6 @@ Here's my thanks to people who made this possible:
 * ABC
 * AOSPA
 * Arrow OS
-* DerpFest
 * LineageOS
 * POSP
 * Statix OS
