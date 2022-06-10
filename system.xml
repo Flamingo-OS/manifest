@@ -811,62 +811,62 @@
     <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" remote="clo_system"/>
     <project name="platform/pdk" path="pdk" remote="clo_system"/>
     <project name="platform/platform_testing" path="platform_testing" remote="clo_system"/>
-    <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" remote="clo_system"/>
-    <project name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" remote="clo_system"/>
-    <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" remote="clo_system"/>
-    <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" remote="clo_system"/>
-    <project name="platform/prebuilts/asuite" path="prebuilts/asuite" remote="clo_system"/>
-    <project name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" remote="clo_system"/>
-    <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="clo_system"/>
-    <project name="platform/prebuilts/bundletool" path="prebuilts/bundletool" remote="clo_system"/>
-    <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" remote="clo_system"/>
-    <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" remote="clo_system"/>
-    <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" remote="clo_system"/>
-    <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="clo_system"/>
-    <project name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" remote="clo_system"/>
-    <project name="platform/prebuilts/devtools" path="prebuilts/devtools" remote="clo_system"/>
-    <project name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" remote="clo_system"/>
-    <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="clo_system"/>
-    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="clo_system"/>
-    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="clo_system"/>
-    <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="clo_system"/>
-    <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="clo_system"/>
-    <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="clo_system"/>
-    <project name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" remote="clo_system"/>
-    <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" remote="clo_system"/>
-    <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" remote="clo_system"/>
-    <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" remote="clo_system"/>
-    <project name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" remote="clo_system"/>
-    <project name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" remote="clo_system"/>
-    <project name="platform/prebuilts/ktlint" path="prebuilts/ktlint" remote="clo_system"/>
-    <project name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger" remote="clo_system"/>
-    <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" remote="clo_system"/>
-    <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" remote="clo_system"/>
-    <project name="platform/prebuilts/misc" path="prebuilts/misc" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/Connectivity" path="prebuilts/module_sdk/Connectivity" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/IPsec" path="prebuilts/module_sdk/IPsec" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/Media" path="prebuilts/module_sdk/Media" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/MediaProvider" path="prebuilts/module_sdk/MediaProvider" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/Permission" path="prebuilts/module_sdk/Permission" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/Scheduling" path="prebuilts/module_sdk/Scheduling" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/SdkExtensions" path="prebuilts/module_sdk/SdkExtensions" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/StatsD" path="prebuilts/module_sdk/StatsD" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/Wifi" path="prebuilts/module_sdk/Wifi" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art" remote="clo_system"/>
-    <project name="platform/prebuilts/module_sdk/conscrypt" path="prebuilts/module_sdk/conscrypt" remote="clo_system"/>
-    <project name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="clo_system"/>
-    <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" remote="clo_system"/>
-    <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="clo_system"/>
-    <project name="platform/prebuilts/r8" path="prebuilts/r8" remote="clo_system"/>
-    <project name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" remote="clo_system"/>
-    <project name="platform/prebuilts/runtime" path="prebuilts/runtime" remote="clo_system"/>
-    <project name="platform/prebuilts/rust" path="prebuilts/rust" remote="clo_system"/>
-    <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="clo_system"/>
-    <project name="platform/prebuilts/tools" path="prebuilts/tools" remote="clo_system"/>
-    <project name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" remote="clo_system"/>
-    <project name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" remote="clo_system"/>
-    <project name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30" remote="clo_system"/>
-    <project name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/asuite" path="prebuilts/asuite" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/bundletool" path="prebuilts/bundletool" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/devtools" path="prebuilts/devtools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/ktlint" path="prebuilts/ktlint" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/Connectivity" path="prebuilts/module_sdk/Connectivity" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/IPsec" path="prebuilts/module_sdk/IPsec" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/Media" path="prebuilts/module_sdk/Media" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/MediaProvider" path="prebuilts/module_sdk/MediaProvider" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/Permission" path="prebuilts/module_sdk/Permission" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/Scheduling" path="prebuilts/module_sdk/Scheduling" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/SdkExtensions" path="prebuilts/module_sdk/SdkExtensions" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/StatsD" path="prebuilts/module_sdk/StatsD" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/Wifi" path="prebuilts/module_sdk/Wifi" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/module_sdk/conscrypt" path="prebuilts/module_sdk/conscrypt" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/r8" path="prebuilts/r8" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/runtime" path="prebuilts/runtime" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/rust" path="prebuilts/rust" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/tools" path="prebuilts/tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/vndk/v30" path="prebuilts/vndk/v30" remote="clo_system"/>
+    <project clone-depth="1" name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31" remote="clo_system"/>
     <project name="platform/sdk" path="sdk" remote="clo_system"/>
     <project name="platform/system/apex" path="system/apex" remote="clo_system"/>
     <project name="platform/system/bpf" path="system/bpf" remote="clo_system"/>
