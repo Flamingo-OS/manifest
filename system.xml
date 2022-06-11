@@ -68,568 +68,568 @@
     <project name="platform/dalvik" path="dalvik" remote="clo_system"/>
     <project name="platform/developers/build" path="developers/build" remote="clo_system"/>
     <project name="platform/development" path="development" remote="clo_system"/>
-    <project name="platform/external/FP16" path="external/FP16" remote="clo_system"/>
-    <project name="platform/external/FXdiv" path="external/FXdiv" remote="clo_system"/>
-    <project name="platform/external/ImageMagick" path="external/ImageMagick" remote="clo_system"/>
-    <project name="platform/external/OpenCSD" path="external/OpenCSD" remote="clo_system"/>
-    <project name="platform/external/Reactive-Extensions/RxCpp" path="external/Reactive-Extensions/RxCpp" remote="clo_system"/>
-    <project name="platform/external/TestParameterInjector" path="external/TestParameterInjector" remote="clo_system"/>
-    <project name="platform/external/XNNPACK" path="external/XNNPACK" remote="clo_system"/>
-    <project name="platform/external/aac" path="external/aac" remote="clo_system"/>
-    <project name="platform/external/abseil-cpp" path="external/abseil-cpp" remote="clo_system"/>
-    <project name="platform/external/adt-infra" path="external/adt-infra" remote="clo_system"/>
-    <project name="platform/external/android-clat" path="external/android-clat" remote="clo_system"/>
-    <project name="platform/external/androidplot" path="external/androidplot" remote="clo_system"/>
-    <project name="platform/external/angle" path="external/angle" remote="clo_system"/>
-    <project name="platform/external/ant-glob" path="external/ant-glob" remote="clo_system"/>
-    <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="clo_system"/>
-    <project name="platform/external/antlr" path="external/antlr" remote="clo_system"/>
-    <project name="platform/external/apache-commons-bcel" path="external/apache-commons-bcel" remote="clo_system"/>
-    <project name="platform/external/apache-commons-compress" path="external/apache-commons-compress" remote="clo_system"/>
-    <project name="platform/external/apache-commons-math" path="external/apache-commons-math" remote="clo_system"/>
-    <project name="platform/external/apache-harmony" path="external/apache-harmony" remote="clo_system"/>
-    <project name="platform/external/apache-http" path="external/apache-http" remote="clo_system"/>
-    <project name="platform/external/apache-xml" path="external/apache-xml" remote="clo_system"/>
-    <project name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" remote="clo_system"/>
-    <project name="platform/external/arm-trusted-firmware" path="external/arm-trusted-firmware" remote="clo_system"/>
-    <project name="platform/external/auto" path="external/auto" remote="clo_system"/>
-    <project name="platform/external/autotest" path="external/autotest" remote="clo_system"/>
-    <project name="platform/external/avb" path="external/avb" remote="clo_system"/>
-    <project name="platform/external/bazelbuild-rules_android" path="external/bazelbuild-rules_android" remote="clo_system"/>
-    <project name="platform/external/bc" path="external/bc" remote="clo_system"/>
-    <project name="platform/external/bcc" path="external/bcc" remote="clo_system"/>
-    <project name="platform/external/blktrace" path="external/blktrace" remote="clo_system"/>
-    <project name="platform/external/boringssl" path="external/boringssl" remote="clo_system"/>
-    <project name="platform/external/bouncycastle" path="external/bouncycastle" remote="clo_system"/>
-    <project name="platform/external/brotli" path="external/brotli" remote="clo_system"/>
-    <project name="platform/external/bsdiff" path="external/bsdiff" remote="clo_system"/>
-    <project name="platform/external/bzip2" path="external/bzip2" remote="clo_system"/>
-    <project name="platform/external/caliper" path="external/caliper" remote="clo_system"/>
-    <project name="platform/external/capstone" path="external/capstone" remote="clo_system"/>
-    <project name="platform/external/catch2" path="external/catch2" remote="clo_system"/>
-    <project name="platform/external/cblas" path="external/cblas" remote="clo_system"/>
-    <project name="platform/external/cbor-java" path="external/cbor-java" remote="clo_system"/>
-    <project name="platform/external/chromium-trace" path="external/chromium-trace" remote="clo_system"/>
-    <project name="platform/external/chromium-webview" path="external/chromium-webview" remote="clo_system"/>
-    <project name="platform/external/clang" path="external/clang" remote="clo_system"/>
-    <project name="platform/external/cldr" path="external/cldr" remote="clo_system"/>
-    <project name="platform/external/cn-cbor" path="external/cn-cbor" remote="clo_system"/>
-    <project name="platform/external/compiler-rt" path="external/compiler-rt" remote="clo_system"/>
-    <project name="platform/external/connectedappssdk" path="external/connectedappssdk" remote="clo_system"/>
-    <project name="platform/external/conscrypt" path="external/conscrypt" remote="clo_system"/>
-    <project name="platform/external/cpu_features" path="external/cpu_features" remote="clo_system"/>
-    <project name="platform/external/cpuinfo" path="external/cpuinfo" remote="clo_system"/>
-    <project name="platform/external/crcalc" path="external/crcalc" remote="clo_system"/>
-    <project name="platform/external/cros/system_api" path="external/cros/system_api" remote="clo_system"/>
-    <project name="platform/external/crosvm" path="external/crosvm" remote="clo_system"/>
-    <project name="platform/external/curl" path="external/curl" remote="clo_system"/>
-    <project name="platform/external/dagger2" path="external/dagger2" remote="clo_system"/>
-    <project name="platform/external/deqp" path="external/deqp" remote="clo_system"/>
-    <project name="platform/external/deqp-deps/SPIRV-Headers" path="external/deqp-deps/SPIRV-Headers" remote="clo_system"/>
-    <project name="platform/external/deqp-deps/SPIRV-Tools" path="external/deqp-deps/SPIRV-Tools" remote="clo_system"/>
-    <project name="platform/external/deqp-deps/amber" path="external/deqp-deps/amber" remote="clo_system"/>
-    <project name="platform/external/deqp-deps/glslang" path="external/deqp-deps/glslang" remote="clo_system"/>
-    <project name="platform/external/desugar" path="external/desugar" remote="clo_system"/>
-    <project name="platform/external/dexmaker" path="external/dexmaker" remote="clo_system"/>
-    <project name="platform/external/dlmalloc" path="external/dlmalloc" remote="clo_system"/>
-    <project name="platform/external/dng_sdk" path="external/dng_sdk" remote="clo_system"/>
-    <project name="platform/external/dnsmasq" path="external/dnsmasq" remote="clo_system"/>
-    <project name="platform/external/doclava" path="external/doclava" remote="clo_system"/>
-    <project name="platform/external/dokka" path="external/dokka" remote="clo_system"/>
-    <project name="platform/external/downloader" path="external/downloader" remote="clo_system"/>
-    <project name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="clo_system"/>
-    <project name="platform/external/drrickorang" path="external/drrickorang" remote="clo_system"/>
-    <project name="platform/external/dtc" path="external/dtc" remote="clo_system"/>
-    <project name="platform/external/dynamic_depth" path="external/dynamic_depth" remote="clo_system"/>
-    <project name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="clo_system"/>
-    <project name="platform/external/easymock" path="external/easymock" remote="clo_system"/>
-    <project name="platform/external/eigen" path="external/eigen" remote="clo_system"/>
-    <project name="platform/external/elfutils" path="external/elfutils" remote="clo_system"/>
-    <project name="platform/external/emma" path="external/emma" remote="clo_system"/>
-    <project name="platform/external/erofs-utils" path="external/erofs-utils" remote="clo_system"/>
-    <project name="platform/external/error_prone" path="external/error_prone" remote="clo_system"/>
-    <project name="platform/external/escapevelocity" path="external/escapevelocity" remote="clo_system"/>
-    <project name="platform/external/ethtool" path="external/ethtool" remote="clo_system"/>
-    <project name="platform/external/exoplayer" path="external/exoplayer" remote="clo_system"/>
-    <project name="platform/external/expat" path="external/expat" remote="clo_system"/>
-    <project name="platform/external/f2fs-tools" path="external/f2fs-tools" remote="clo_system"/>
-    <project name="platform/external/fastrpc" path="external/fastrpc" remote="clo_system"/>
-    <project name="platform/external/fdlibm" path="external/fdlibm" remote="clo_system"/>
-    <project name="platform/external/fec" path="external/fec" remote="clo_system"/>
-    <project name="platform/external/fft2d" path="external/fft2d" remote="clo_system"/>
-    <project name="platform/external/firebase-messaging" path="external/firebase-messaging" remote="clo_system"/>
-    <project name="platform/external/flac" path="external/flac" remote="clo_system"/>
-    <project name="platform/external/flatbuffers" path="external/flatbuffers" remote="clo_system"/>
-    <project name="platform/external/fmtlib" path="external/fmtlib" remote="clo_system"/>
-    <project name="platform/external/fonttools" path="external/fonttools" remote="clo_system"/>
-    <project name="platform/external/freetype" path="external/freetype" remote="clo_system"/>
-    <project name="platform/external/fsck_msdos" path="external/fsck_msdos" remote="clo_system"/>
-    <project name="platform/external/fsverity-utils" path="external/fsverity-utils" remote="clo_system"/>
-    <project name="platform/external/gemmlowp" path="external/gemmlowp" remote="clo_system"/>
-    <project name="platform/external/geojson-jackson" path="external/geojson-jackson" remote="clo_system"/>
-    <project name="platform/external/geonames" path="external/geonames" remote="clo_system"/>
-    <project name="platform/external/gflags" path="external/gflags" remote="clo_system"/>
-    <project name="platform/external/giflib" path="external/giflib" remote="clo_system"/>
-    <project name="platform/external/glide" path="external/glide" remote="clo_system"/>
-    <project name="platform/external/golang-protobuf" path="external/golang-protobuf" remote="clo_system"/>
-    <project name="platform/external/google-benchmark" path="external/google-benchmark" remote="clo_system"/>
-    <project name="platform/external/google-breakpad" path="external/google-breakpad" remote="clo_system"/>
-    <project name="platform/external/google-fonts/arbutus-slab" path="external/google-fonts/arbutus-slab" remote="clo_system"/>
-    <project name="platform/external/google-fonts/arvo" path="external/google-fonts/arvo" remote="clo_system"/>
-    <project name="platform/external/google-fonts/barlow" path="external/google-fonts/barlow" remote="clo_system"/>
-    <project name="platform/external/google-fonts/big-shoulders-text" path="external/google-fonts/big-shoulders-text" remote="clo_system"/>
-    <project name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" remote="clo_system"/>
-    <project name="platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" remote="clo_system"/>
-    <project name="platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" remote="clo_system"/>
-    <project name="platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script" remote="clo_system"/>
-    <project name="platform/external/google-fonts/fraunces" path="external/google-fonts/fraunces" remote="clo_system"/>
-    <project name="platform/external/google-fonts/karla" path="external/google-fonts/karla" remote="clo_system"/>
-    <project name="platform/external/google-fonts/lato" path="external/google-fonts/lato" remote="clo_system"/>
-    <project name="platform/external/google-fonts/lustria" path="external/google-fonts/lustria" remote="clo_system"/>
-    <project name="platform/external/google-fonts/rubik" path="external/google-fonts/rubik" remote="clo_system"/>
-    <project name="platform/external/google-fonts/source-sans-pro" path="external/google-fonts/source-sans-pro" remote="clo_system"/>
-    <project name="platform/external/google-fonts/zilla-slab" path="external/google-fonts/zilla-slab" remote="clo_system"/>
-    <project name="platform/external/google-fruit" path="external/google-fruit" remote="clo_system"/>
-    <project name="platform/external/google-java-format" path="external/google-java-format" remote="clo_system"/>
-    <project name="platform/external/google-styleguide" path="external/google-styleguide" remote="clo_system"/>
-    <project name="platform/external/googletest" path="external/googletest" remote="clo_system"/>
-    <project name="platform/external/gptfdisk" path="external/gptfdisk" remote="clo_system"/>
-    <project name="platform/external/grpc-grpc" path="external/grpc-grpc" remote="clo_system"/>
-    <project name="platform/external/grpc-grpc-java" path="external/grpc-grpc-java" remote="clo_system"/>
-    <project name="platform/external/guava" path="external/guava" remote="clo_system"/>
-    <project name="platform/external/guice" path="external/guice" remote="clo_system"/>
-    <project name="platform/external/gwp_asan" path="external/gwp_asan" remote="clo_system"/>
-    <project name="platform/external/hamcrest" path="external/hamcrest" remote="clo_system"/>
-    <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" remote="clo_system"/>
-    <project name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" remote="clo_system"/>
-    <project name="platform/external/icing" path="external/icing" remote="clo_system"/>
-    <project name="platform/external/icu" path="external/icu" remote="clo_system"/>
-    <project name="platform/external/igt-gpu-tools" path="external/igt-gpu-tools" remote="clo_system"/>
-    <project name="platform/external/image_io" path="external/image_io" remote="clo_system"/>
-    <project name="platform/external/ims" path="external/ims" remote="clo_system"/>
-    <project name="platform/external/iperf3" path="external/iperf3" remote="clo_system"/>
-    <project name="platform/external/iproute2" path="external/iproute2" remote="clo_system"/>
-    <project name="platform/external/ipsec-tools" path="external/ipsec-tools" remote="clo_system"/>
-    <project name="platform/external/iptables" path="external/iptables" remote="clo_system"/>
-    <project name="platform/external/iputils" path="external/iputils" remote="clo_system"/>
-    <project name="platform/external/iw" path="external/iw" remote="clo_system"/>
-    <project name="platform/external/jackson-annotations" path="external/jackson-annotations" remote="clo_system"/>
-    <project name="platform/external/jackson-core" path="external/jackson-core" remote="clo_system"/>
-    <project name="platform/external/jackson-databind" path="external/jackson-databind" remote="clo_system"/>
-    <project name="platform/external/jacoco" path="external/jacoco" remote="clo_system"/>
-    <project name="platform/external/jarjar" path="external/jarjar" remote="clo_system"/>
-    <project name="platform/external/javaparser" path="external/javaparser" remote="clo_system"/>
-    <project name="platform/external/javapoet" path="external/javapoet" remote="clo_system"/>
-    <project name="platform/external/javasqlite" path="external/javasqlite" remote="clo_system"/>
-    <project name="platform/external/javassist" path="external/javassist" remote="clo_system"/>
-    <project name="platform/external/jcommander" path="external/jcommander" remote="clo_system"/>
-    <project name="platform/external/jdiff" path="external/jdiff" remote="clo_system"/>
-    <project name="platform/external/jemalloc_new" path="external/jemalloc_new" remote="clo_system"/>
-    <project name="platform/external/jimfs" path="external/jimfs" remote="clo_system"/>
-    <project name="platform/external/jline" path="external/jline" remote="clo_system"/>
-    <project name="platform/external/jsilver" path="external/jsilver" remote="clo_system"/>
-    <project name="platform/external/jsmn" path="external/jsmn" remote="clo_system"/>
-    <project name="platform/external/json-c" path="external/json-c" remote="clo_system"/>
-    <project name="platform/external/jsoncpp" path="external/jsoncpp" remote="clo_system"/>
-    <project name="platform/external/jsr305" path="external/jsr305" remote="clo_system"/>
-    <project name="platform/external/jsr330" path="external/jsr330" remote="clo_system"/>
-    <project name="platform/external/junit" path="external/junit" remote="clo_system"/>
-    <project name="platform/external/junit-params" path="external/junit-params" remote="clo_system"/>
-    <project name="platform/external/kernel-headers" path="external/kernel-headers" remote="clo_system"/>
-    <project name="platform/external/kmod" path="external/kmod" remote="clo_system"/>
-    <project name="platform/external/kotlinc" path="external/kotlinc" remote="clo_system"/>
-    <project name="platform/external/kotlinx.atomicfu" path="external/kotlinx.atomicfu" remote="clo_system"/>
-    <project name="platform/external/kotlinx.coroutines" path="external/kotlinx.coroutines" remote="clo_system"/>
-    <project name="platform/external/kotlinx.metadata" path="external/kotlinx.metadata" remote="clo_system"/>
-    <project name="platform/external/ksoap2" path="external/ksoap2" remote="clo_system"/>
-    <project name="platform/external/libabigail" path="external/libabigail" remote="clo_system"/>
-    <project name="platform/external/libaom" path="external/libaom" remote="clo_system"/>
-    <project name="platform/external/libavc" path="external/libavc" remote="clo_system"/>
-    <project name="platform/external/libbackup" path="external/libbackup" remote="clo_system"/>
-    <project name="platform/external/libbrillo" path="external/libbrillo" remote="clo_system"/>
-    <project name="platform/external/libcap" path="external/libcap" remote="clo_system"/>
-    <project name="platform/external/libcap-ng" path="external/libcap-ng" remote="clo_system"/>
-    <project name="platform/external/libchrome" path="external/libchrome" remote="clo_system"/>
-    <project name="platform/external/libchromeos-rs" path="external/libchromeos-rs" remote="clo_system"/>
-    <project name="platform/external/libcppbor" path="external/libcppbor" remote="clo_system"/>
-    <project name="platform/external/libcups" path="external/libcups" remote="clo_system"/>
-    <project name="platform/external/libcxx" path="external/libcxx" remote="clo_system"/>
-    <project name="platform/external/libcxxabi" path="external/libcxxabi" remote="clo_system"/>
-    <project name="platform/external/libdivsufsort" path="external/libdivsufsort" remote="clo_system"/>
-    <project name="platform/external/libdrm" path="external/libdrm" remote="clo_system"/>
-    <project name="platform/external/libepoxy" path="external/libepoxy" remote="clo_system"/>
-    <project name="platform/external/libese" path="external/libese" remote="clo_system"/>
-    <project name="platform/external/libevent" path="external/libevent" remote="clo_system"/>
-    <project name="platform/external/libexif" path="external/libexif" remote="clo_system"/>
-    <project name="platform/external/libffi" path="external/libffi" remote="clo_system"/>
-    <project name="platform/external/libfuse" path="external/libfuse" remote="clo_system"/>
-    <project name="platform/external/libgav1" path="external/libgav1" remote="clo_system"/>
-    <project name="platform/external/libgsm" path="external/libgsm" remote="clo_system"/>
-    <project name="platform/external/libhevc" path="external/libhevc" remote="clo_system"/>
-    <project name="platform/external/libiio" path="external/libiio" remote="clo_system"/>
-    <project name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" remote="clo_system"/>
-    <project name="platform/external/libkmsxx" path="external/libkmsxx" remote="clo_system"/>
-    <project name="platform/external/libldac" path="external/libldac" remote="clo_system"/>
-    <project name="platform/external/libmpeg2" path="external/libmpeg2" remote="clo_system"/>
-    <project name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="clo_system"/>
-    <project name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="clo_system"/>
-    <project name="platform/external/libnl" path="external/libnl" remote="clo_system"/>
-    <project name="platform/external/libogg" path="external/libogg" remote="clo_system"/>
-    <project name="platform/external/libopus" path="external/libopus" remote="clo_system"/>
-    <project name="platform/external/libpcap" path="external/libpcap" remote="clo_system"/>
-    <project name="platform/external/libphonenumber" path="external/libphonenumber" remote="clo_system"/>
-    <project name="platform/external/libpng" path="external/libpng" remote="clo_system"/>
-    <project name="platform/external/libprotobuf-mutator" path="external/libprotobuf-mutator" remote="clo_system"/>
-    <project name="platform/external/libsrtp2" path="external/libsrtp2" remote="clo_system"/>
-    <project name="platform/external/libtextclassifier" path="external/libtextclassifier" remote="clo_system"/>
-    <project name="platform/external/libusb" path="external/libusb" remote="clo_system"/>
-    <project name="platform/external/libutf" path="external/libutf" remote="clo_system"/>
-    <project name="platform/external/libvpx" path="external/libvpx" remote="clo_system"/>
-    <project name="platform/external/libwebm" path="external/libwebm" remote="clo_system"/>
-    <project name="platform/external/libwebsockets" path="external/libwebsockets" remote="clo_system"/>
-    <project name="platform/external/libxaac" path="external/libxaac" remote="clo_system"/>
-    <project name="platform/external/libxkbcommon" path="external/libxkbcommon" remote="clo_system"/>
-    <project name="platform/external/libxml2" path="external/libxml2" remote="clo_system"/>
-    <project name="platform/external/libyuv" path="external/libyuv" remote="clo_system"/>
-    <project name="platform/external/linux-kselftest" path="external/linux-kselftest" remote="clo_system"/>
-    <project name="platform/external/llvm" path="external/llvm" remote="clo_system"/>
-    <project name="platform/external/lmfit" path="external/lmfit" remote="clo_system"/>
-    <project name="platform/external/lottie" path="external/lottie" remote="clo_system"/>
-    <project name="platform/external/ltp" path="external/ltp" remote="clo_system"/>
-    <project name="platform/external/lua" path="external/lua" remote="clo_system"/>
-    <project name="platform/external/lz4" path="external/lz4" remote="clo_system"/>
-    <project name="platform/external/lzma" path="external/lzma" remote="clo_system"/>
-    <project name="platform/external/marisa-trie" path="external/marisa-trie" remote="clo_system"/>
-    <project name="platform/external/markdown" path="external/markdown" remote="clo_system"/>
-    <project name="platform/external/mdnsresponder" path="external/mdnsresponder" remote="clo_system"/>
-    <project name="platform/external/mesa3d" path="external/mesa3d" remote="clo_system"/>
-    <project name="platform/external/mime-support" path="external/mime-support" remote="clo_system"/>
-    <project name="platform/external/minigbm" path="external/minigbm" remote="clo_system"/>
-    <project name="platform/external/minijail" path="external/minijail" remote="clo_system"/>
-    <project name="platform/external/mksh" path="external/mksh" remote="clo_system"/>
-    <project name="platform/external/mockftpserver" path="external/mockftpserver" remote="clo_system"/>
-    <project name="platform/external/mockito" path="external/mockito" remote="clo_system"/>
-    <project name="platform/external/mockwebserver" path="external/mockwebserver" remote="clo_system"/>
-    <project name="platform/external/modp_b64" path="external/modp_b64" remote="clo_system"/>
-    <project name="platform/external/mp4parser" path="external/mp4parser" remote="clo_system"/>
-    <project name="platform/external/ms-tpm-20-ref" path="external/ms-tpm-20-ref" remote="clo_system"/>
-    <project name="platform/external/mtools" path="external/mtools" remote="clo_system"/>
-    <project name="platform/external/mtpd" path="external/mtpd" remote="clo_system"/>
-    <project name="platform/external/nanohttpd" path="external/nanohttpd" remote="clo_system"/>
-    <project name="platform/external/nanopb-c" path="external/nanopb-c" remote="clo_system"/>
-    <project name="platform/external/naver-fonts" path="external/naver-fonts" remote="clo_system"/>
-    <project name="platform/external/neon_2_sse" path="external/neon_2_sse" remote="clo_system"/>
-    <project name="platform/external/neven" path="external/neven" remote="clo_system"/>
-    <project name="platform/external/newfs_msdos" path="external/newfs_msdos" remote="clo_system"/>
-    <project name="platform/external/nist-pkits" path="external/nist-pkits" remote="clo_system"/>
-    <project name="platform/external/nist-sip" path="external/nist-sip" remote="clo_system"/>
-    <project name="platform/external/nos/host/generic" path="external/nos/host/generic" remote="clo_system"/>
-    <project name="platform/external/noto-fonts" path="external/noto-fonts" remote="clo_system"/>
-    <project name="platform/external/oauth" path="external/oauth" remote="clo_system"/>
-    <project name="platform/external/objenesis" path="external/objenesis" remote="clo_system"/>
-    <project name="platform/external/oboe" path="external/oboe" remote="clo_system"/>
-    <project name="platform/external/oj-libjdwp" path="external/oj-libjdwp" remote="clo_system"/>
-    <project name="platform/external/okhttp" path="external/okhttp" remote="clo_system"/>
-    <project name="platform/external/okhttp4" path="external/okhttp4" remote="clo_system"/>
-    <project name="platform/external/okio" path="external/okio" remote="clo_system"/>
-    <project name="platform/external/one-true-awk" path="external/one-true-awk" remote="clo_system"/>
-    <project name="platform/external/opencensus-java" path="external/opencensus-java" remote="clo_system"/>
-    <project name="platform/external/openscreen" path="external/openscreen" remote="clo_system"/>
-    <project name="platform/external/openssh" path="external/openssh" remote="clo_system"/>
-    <project name="platform/external/oss-fuzz" path="external/oss-fuzz" remote="clo_system"/>
-    <project name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" remote="clo_system"/>
-    <project name="platform/external/parameter-framework" path="external/parameter-framework" remote="clo_system"/>
-    <project name="platform/external/pcre" path="external/pcre" remote="clo_system"/>
-    <project name="platform/external/pdfium" path="external/pdfium" remote="clo_system"/>
-    <project name="platform/external/perfetto" path="external/perfetto" remote="clo_system"/>
-    <project name="platform/external/pffft" path="external/pffft" remote="clo_system"/>
-    <project name="platform/external/piex" path="external/piex" remote="clo_system"/>
-    <project name="platform/external/pigweed" path="external/pigweed" remote="clo_system"/>
-    <project name="platform/external/ply" path="external/ply" remote="clo_system"/>
-    <project name="platform/external/ppp" path="external/ppp" remote="clo_system"/>
-    <project name="platform/external/proguard" path="external/proguard" remote="clo_system"/>
-    <project name="platform/external/protobuf" path="external/protobuf" remote="clo_system"/>
-    <project name="platform/external/psimd" path="external/psimd" remote="clo_system"/>
-    <project name="platform/external/pthreadpool" path="external/pthreadpool" remote="clo_system"/>
-    <project name="platform/external/puffin" path="external/puffin" remote="clo_system"/>
-    <project name="platform/external/python/apitools" path="external/python/apitools" remote="clo_system"/>
-    <project name="platform/external/python/asn1crypto" path="external/python/asn1crypto" remote="clo_system"/>
-    <project name="platform/external/python/cffi" path="external/python/cffi" remote="clo_system"/>
-    <project name="platform/external/python/cpython2" path="external/python/cpython2" remote="clo_system"/>
-    <project name="platform/external/python/cpython3" path="external/python/cpython3" remote="clo_system"/>
-    <project name="platform/external/python/cryptography" path="external/python/cryptography" remote="clo_system"/>
-    <project name="platform/external/python/dateutil" path="external/python/dateutil" remote="clo_system"/>
-    <project name="platform/external/python/enum34" path="external/python/enum34" remote="clo_system"/>
-    <project name="platform/external/python/funcsigs" path="external/python/funcsigs" remote="clo_system"/>
-    <project name="platform/external/python/futures" path="external/python/futures" remote="clo_system"/>
-    <project name="platform/external/python/google-api-python-client" path="external/python/google-api-python-client" remote="clo_system"/>
-    <project name="platform/external/python/httplib2" path="external/python/httplib2" remote="clo_system"/>
-    <project name="platform/external/python/ipaddress" path="external/python/ipaddress" remote="clo_system"/>
-    <project name="platform/external/python/jinja" path="external/python/jinja" remote="clo_system"/>
-    <project name="platform/external/python/markupsafe" path="external/python/markupsafe" remote="clo_system"/>
-    <project name="platform/external/python/mock" path="external/python/mock" remote="clo_system"/>
-    <project name="platform/external/python/oauth2client" path="external/python/oauth2client" remote="clo_system"/>
-    <project name="platform/external/python/parse_type" path="external/python/parse_type" remote="clo_system"/>
-    <project name="platform/external/python/pyasn1" path="external/python/pyasn1" remote="clo_system"/>
-    <project name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules" remote="clo_system"/>
-    <project name="platform/external/python/pybind11" path="external/python/pybind11" remote="clo_system"/>
-    <project name="platform/external/python/pycparser" path="external/python/pycparser" remote="clo_system"/>
-    <project name="platform/external/python/pyfakefs" path="external/python/pyfakefs" remote="clo_system"/>
-    <project name="platform/external/python/pyopenssl" path="external/python/pyopenssl" remote="clo_system"/>
-    <project name="platform/external/python/rsa" path="external/python/rsa" remote="clo_system"/>
-    <project name="platform/external/python/setuptools" path="external/python/setuptools" remote="clo_system"/>
-    <project name="platform/external/python/six" path="external/python/six" remote="clo_system"/>
-    <project name="platform/external/python/uritemplates" path="external/python/uritemplates" remote="clo_system"/>
-    <project name="platform/external/rappor" path="external/rappor" remote="clo_system"/>
-    <project name="platform/external/replicaisland" path="external/replicaisland" remote="clo_system"/>
-    <project name="platform/external/rmi4utils" path="external/rmi4utils" remote="clo_system"/>
-    <project name="platform/external/rnnoise" path="external/rnnoise" remote="clo_system"/>
-    <project name="platform/external/robolectric-shadows" path="external/robolectric-shadows" remote="clo_system"/>
-    <project name="platform/external/roboto-fonts" path="external/roboto-fonts" remote="clo_system"/>
-    <project name="platform/external/rootdev" path="external/rootdev" remote="clo_system"/>
-    <project name="platform/external/rust/crates/ahash" path="external/rust/crates/ahash" remote="clo_system"/>
-    <project name="platform/external/rust/crates/aho-corasick" path="external/rust/crates/aho-corasick" remote="clo_system"/>
-    <project name="platform/external/rust/crates/android_log-sys" path="external/rust/crates/android_log-sys" remote="clo_system"/>
-    <project name="platform/external/rust/crates/android_logger" path="external/rust/crates/android_logger" remote="clo_system"/>
-    <project name="platform/external/rust/crates/anyhow" path="external/rust/crates/anyhow" remote="clo_system"/>
-    <project name="platform/external/rust/crates/arbitrary" path="external/rust/crates/arbitrary" remote="clo_system"/>
-    <project name="platform/external/rust/crates/async-stream" path="external/rust/crates/async-stream" remote="clo_system"/>
-    <project name="platform/external/rust/crates/async-stream-impl" path="external/rust/crates/async-stream-impl" remote="clo_system"/>
-    <project name="platform/external/rust/crates/async-task" path="external/rust/crates/async-task" remote="clo_system"/>
-    <project name="platform/external/rust/crates/async-trait" path="external/rust/crates/async-trait" remote="clo_system"/>
-    <project name="platform/external/rust/crates/atty" path="external/rust/crates/atty" remote="clo_system"/>
-    <project name="platform/external/rust/crates/bencher" path="external/rust/crates/bencher" remote="clo_system"/>
-    <project name="platform/external/rust/crates/bindgen" path="external/rust/crates/bindgen" remote="clo_system"/>
-    <project name="platform/external/rust/crates/bitflags" path="external/rust/crates/bitflags" remote="clo_system"/>
-    <project name="platform/external/rust/crates/bstr" path="external/rust/crates/bstr" remote="clo_system"/>
-    <project name="platform/external/rust/crates/byteorder" path="external/rust/crates/byteorder" remote="clo_system"/>
-    <project name="platform/external/rust/crates/bytes" path="external/rust/crates/bytes" remote="clo_system"/>
-    <project name="platform/external/rust/crates/cast" path="external/rust/crates/cast" remote="clo_system"/>
-    <project name="platform/external/rust/crates/cexpr" path="external/rust/crates/cexpr" remote="clo_system"/>
-    <project name="platform/external/rust/crates/cfg-if" path="external/rust/crates/cfg-if" remote="clo_system"/>
-    <project name="platform/external/rust/crates/chrono" path="external/rust/crates/chrono" remote="clo_system"/>
-    <project name="platform/external/rust/crates/clang-sys" path="external/rust/crates/clang-sys" remote="clo_system"/>
-    <project name="platform/external/rust/crates/clap" path="external/rust/crates/clap" remote="clo_system"/>
-    <project name="platform/external/rust/crates/codespan-reporting" path="external/rust/crates/codespan-reporting" remote="clo_system"/>
-    <project name="platform/external/rust/crates/crc32fast" path="external/rust/crates/crc32fast" remote="clo_system"/>
-    <project name="platform/external/rust/crates/criterion" path="external/rust/crates/criterion" remote="clo_system"/>
-    <project name="platform/external/rust/crates/criterion-plot" path="external/rust/crates/criterion-plot" remote="clo_system"/>
-    <project name="platform/external/rust/crates/crossbeam-channel" path="external/rust/crates/crossbeam-channel" remote="clo_system"/>
-    <project name="platform/external/rust/crates/crossbeam-deque" path="external/rust/crates/crossbeam-deque" remote="clo_system"/>
-    <project name="platform/external/rust/crates/crossbeam-epoch" path="external/rust/crates/crossbeam-epoch" remote="clo_system"/>
-    <project name="platform/external/rust/crates/crossbeam-utils" path="external/rust/crates/crossbeam-utils" remote="clo_system"/>
-    <project name="platform/external/rust/crates/csv" path="external/rust/crates/csv" remote="clo_system"/>
-    <project name="platform/external/rust/crates/csv-core" path="external/rust/crates/csv-core" remote="clo_system"/>
-    <project name="platform/external/rust/crates/derive_arbitrary" path="external/rust/crates/derive_arbitrary" remote="clo_system"/>
-    <project name="platform/external/rust/crates/downcast-rs" path="external/rust/crates/downcast-rs" remote="clo_system"/>
-    <project name="platform/external/rust/crates/either" path="external/rust/crates/either" remote="clo_system"/>
-    <project name="platform/external/rust/crates/env_logger" path="external/rust/crates/env_logger" remote="clo_system"/>
-    <project name="platform/external/rust/crates/fallible-iterator" path="external/rust/crates/fallible-iterator" remote="clo_system"/>
-    <project name="platform/external/rust/crates/fallible-streaming-iterator" path="external/rust/crates/fallible-streaming-iterator" remote="clo_system"/>
-    <project name="platform/external/rust/crates/flate2" path="external/rust/crates/flate2" remote="clo_system"/>
-    <project name="platform/external/rust/crates/fnv" path="external/rust/crates/fnv" remote="clo_system"/>
-    <project name="platform/external/rust/crates/form_urlencoded" path="external/rust/crates/form_urlencoded" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures" path="external/rust/crates/futures" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-channel" path="external/rust/crates/futures-channel" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-core" path="external/rust/crates/futures-core" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-executor" path="external/rust/crates/futures-executor" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-io" path="external/rust/crates/futures-io" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-macro" path="external/rust/crates/futures-macro" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-sink" path="external/rust/crates/futures-sink" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-task" path="external/rust/crates/futures-task" remote="clo_system"/>
-    <project name="platform/external/rust/crates/futures-util" path="external/rust/crates/futures-util" remote="clo_system"/>
-    <project name="platform/external/rust/crates/gdbstub" path="external/rust/crates/gdbstub" remote="clo_system"/>
-    <project name="platform/external/rust/crates/gdbstub_arch" path="external/rust/crates/gdbstub_arch" remote="clo_system"/>
-    <project name="platform/external/rust/crates/getrandom" path="external/rust/crates/getrandom" remote="clo_system"/>
-    <project name="platform/external/rust/crates/glob" path="external/rust/crates/glob" remote="clo_system"/>
-    <project name="platform/external/rust/crates/grpcio" path="external/rust/crates/grpcio" remote="clo_system"/>
-    <project name="platform/external/rust/crates/grpcio-compiler" path="external/rust/crates/grpcio-compiler" remote="clo_system"/>
-    <project name="platform/external/rust/crates/grpcio-sys" path="external/rust/crates/grpcio-sys" remote="clo_system"/>
-    <project name="platform/external/rust/crates/half" path="external/rust/crates/half" remote="clo_system"/>
-    <project name="platform/external/rust/crates/hashbrown" path="external/rust/crates/hashbrown" remote="clo_system"/>
-    <project name="platform/external/rust/crates/hashlink" path="external/rust/crates/hashlink" remote="clo_system"/>
-    <project name="platform/external/rust/crates/heck" path="external/rust/crates/heck" remote="clo_system"/>
-    <project name="platform/external/rust/crates/idna" path="external/rust/crates/idna" remote="clo_system"/>
-    <project name="platform/external/rust/crates/instant" path="external/rust/crates/instant" remote="clo_system"/>
-    <project name="platform/external/rust/crates/intrusive-collections" path="external/rust/crates/intrusive-collections" remote="clo_system"/>
-    <project name="platform/external/rust/crates/itertools" path="external/rust/crates/itertools" remote="clo_system"/>
-    <project name="platform/external/rust/crates/itoa" path="external/rust/crates/itoa" remote="clo_system"/>
-    <project name="platform/external/rust/crates/lazy_static" path="external/rust/crates/lazy_static" remote="clo_system"/>
-    <project name="platform/external/rust/crates/lazycell" path="external/rust/crates/lazycell" remote="clo_system"/>
-    <project name="platform/external/rust/crates/libc" path="external/rust/crates/libc" remote="clo_system"/>
-    <project name="platform/external/rust/crates/libfuzzer-sys" path="external/rust/crates/libfuzzer-sys" remote="clo_system"/>
-    <project name="platform/external/rust/crates/libloading" path="external/rust/crates/libloading" remote="clo_system"/>
-    <project name="platform/external/rust/crates/libm" path="external/rust/crates/libm" remote="clo_system"/>
-    <project name="platform/external/rust/crates/libsqlite3-sys" path="external/rust/crates/libsqlite3-sys" remote="clo_system"/>
-    <project name="platform/external/rust/crates/libz-sys" path="external/rust/crates/libz-sys" remote="clo_system"/>
-    <project name="platform/external/rust/crates/linked-hash-map" path="external/rust/crates/linked-hash-map" remote="clo_system"/>
-    <project name="platform/external/rust/crates/lock_api" path="external/rust/crates/lock_api" remote="clo_system"/>
-    <project name="platform/external/rust/crates/log" path="external/rust/crates/log" remote="clo_system"/>
-    <project name="platform/external/rust/crates/lru-cache" path="external/rust/crates/lru-cache" remote="clo_system"/>
-    <project name="platform/external/rust/crates/macaddr" path="external/rust/crates/macaddr" remote="clo_system"/>
-    <project name="platform/external/rust/crates/managed" path="external/rust/crates/managed" remote="clo_system"/>
-    <project name="platform/external/rust/crates/matches" path="external/rust/crates/matches" remote="clo_system"/>
-    <project name="platform/external/rust/crates/memchr" path="external/rust/crates/memchr" remote="clo_system"/>
-    <project name="platform/external/rust/crates/memoffset" path="external/rust/crates/memoffset" remote="clo_system"/>
-    <project name="platform/external/rust/crates/mio" path="external/rust/crates/mio" remote="clo_system"/>
-    <project name="platform/external/rust/crates/nix" path="external/rust/crates/nix" remote="clo_system"/>
-    <project name="platform/external/rust/crates/no-panic" path="external/rust/crates/no-panic" remote="clo_system"/>
-    <project name="platform/external/rust/crates/nom" path="external/rust/crates/nom" remote="clo_system"/>
-    <project name="platform/external/rust/crates/num-derive" path="external/rust/crates/num-derive" remote="clo_system"/>
-    <project name="platform/external/rust/crates/num-integer" path="external/rust/crates/num-integer" remote="clo_system"/>
-    <project name="platform/external/rust/crates/num-traits" path="external/rust/crates/num-traits" remote="clo_system"/>
-    <project name="platform/external/rust/crates/num_cpus" path="external/rust/crates/num_cpus" remote="clo_system"/>
-    <project name="platform/external/rust/crates/once_cell" path="external/rust/crates/once_cell" remote="clo_system"/>
-    <project name="platform/external/rust/crates/oorandom" path="external/rust/crates/oorandom" remote="clo_system"/>
-    <project name="platform/external/rust/crates/parking_lot" path="external/rust/crates/parking_lot" remote="clo_system"/>
-    <project name="platform/external/rust/crates/parking_lot_core" path="external/rust/crates/parking_lot_core" remote="clo_system"/>
-    <project name="platform/external/rust/crates/paste" path="external/rust/crates/paste" remote="clo_system"/>
-    <project name="platform/external/rust/crates/peeking_take_while" path="external/rust/crates/peeking_take_while" remote="clo_system"/>
-    <project name="platform/external/rust/crates/percent-encoding" path="external/rust/crates/percent-encoding" remote="clo_system"/>
-    <project name="platform/external/rust/crates/pin-project" path="external/rust/crates/pin-project" remote="clo_system"/>
-    <project name="platform/external/rust/crates/pin-project-internal" path="external/rust/crates/pin-project-internal" remote="clo_system"/>
-    <project name="platform/external/rust/crates/pin-project-lite" path="external/rust/crates/pin-project-lite" remote="clo_system"/>
-    <project name="platform/external/rust/crates/pin-utils" path="external/rust/crates/pin-utils" remote="clo_system"/>
-    <project name="platform/external/rust/crates/plotters" path="external/rust/crates/plotters" remote="clo_system"/>
-    <project name="platform/external/rust/crates/plotters-backend" path="external/rust/crates/plotters-backend" remote="clo_system"/>
-    <project name="platform/external/rust/crates/plotters-svg" path="external/rust/crates/plotters-svg" remote="clo_system"/>
-    <project name="platform/external/rust/crates/ppv-lite86" path="external/rust/crates/ppv-lite86" remote="clo_system"/>
-    <project name="platform/external/rust/crates/proc-macro-error" path="external/rust/crates/proc-macro-error" remote="clo_system"/>
-    <project name="platform/external/rust/crates/proc-macro-error-attr" path="external/rust/crates/proc-macro-error-attr" remote="clo_system"/>
-    <project name="platform/external/rust/crates/proc-macro-hack" path="external/rust/crates/proc-macro-hack" remote="clo_system"/>
-    <project name="platform/external/rust/crates/proc-macro-nested" path="external/rust/crates/proc-macro-nested" remote="clo_system"/>
-    <project name="platform/external/rust/crates/proc-macro2" path="external/rust/crates/proc-macro2" remote="clo_system"/>
-    <project name="platform/external/rust/crates/protobuf" path="external/rust/crates/protobuf" remote="clo_system"/>
-    <project name="platform/external/rust/crates/protobuf-codegen" path="external/rust/crates/protobuf-codegen" remote="clo_system"/>
-    <project name="platform/external/rust/crates/quiche" path="external/rust/crates/quiche" remote="clo_system"/>
-    <project name="platform/external/rust/crates/quote" path="external/rust/crates/quote" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rand" path="external/rust/crates/rand" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rand_chacha" path="external/rust/crates/rand_chacha" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rand_core" path="external/rust/crates/rand_core" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rand_xorshift" path="external/rust/crates/rand_xorshift" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rayon" path="external/rust/crates/rayon" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rayon-core" path="external/rust/crates/rayon-core" remote="clo_system"/>
-    <project name="platform/external/rust/crates/regex" path="external/rust/crates/regex" remote="clo_system"/>
-    <project name="platform/external/rust/crates/regex-automata" path="external/rust/crates/regex-automata" remote="clo_system"/>
-    <project name="platform/external/rust/crates/regex-syntax" path="external/rust/crates/regex-syntax" remote="clo_system"/>
-    <project name="platform/external/rust/crates/remain" path="external/rust/crates/remain" remote="clo_system"/>
-    <project name="platform/external/rust/crates/ring" path="external/rust/crates/ring" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rusqlite" path="external/rust/crates/rusqlite" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rustc-hash" path="external/rust/crates/rustc-hash" remote="clo_system"/>
-    <project name="platform/external/rust/crates/rustversion" path="external/rust/crates/rustversion" remote="clo_system"/>
-    <project name="platform/external/rust/crates/ryu" path="external/rust/crates/ryu" remote="clo_system"/>
-    <project name="platform/external/rust/crates/same-file" path="external/rust/crates/same-file" remote="clo_system"/>
-    <project name="platform/external/rust/crates/scopeguard" path="external/rust/crates/scopeguard" remote="clo_system"/>
-    <project name="platform/external/rust/crates/serde" path="external/rust/crates/serde" remote="clo_system"/>
-    <project name="platform/external/rust/crates/serde_cbor" path="external/rust/crates/serde_cbor" remote="clo_system"/>
-    <project name="platform/external/rust/crates/serde_derive" path="external/rust/crates/serde_derive" remote="clo_system"/>
-    <project name="platform/external/rust/crates/serde_json" path="external/rust/crates/serde_json" remote="clo_system"/>
-    <project name="platform/external/rust/crates/serde_test" path="external/rust/crates/serde_test" remote="clo_system"/>
-    <project name="platform/external/rust/crates/shared_child" path="external/rust/crates/shared_child" remote="clo_system"/>
-    <project name="platform/external/rust/crates/shlex" path="external/rust/crates/shlex" remote="clo_system"/>
-    <project name="platform/external/rust/crates/simplelog" path="external/rust/crates/simplelog" remote="clo_system"/>
-    <project name="platform/external/rust/crates/slab" path="external/rust/crates/slab" remote="clo_system"/>
-    <project name="platform/external/rust/crates/smallvec" path="external/rust/crates/smallvec" remote="clo_system"/>
-    <project name="platform/external/rust/crates/spin" path="external/rust/crates/spin" remote="clo_system"/>
-    <project name="platform/external/rust/crates/structopt" path="external/rust/crates/structopt" remote="clo_system"/>
-    <project name="platform/external/rust/crates/structopt-derive" path="external/rust/crates/structopt-derive" remote="clo_system"/>
-    <project name="platform/external/rust/crates/syn" path="external/rust/crates/syn" remote="clo_system"/>
-    <project name="platform/external/rust/crates/syn-mid" path="external/rust/crates/syn-mid" remote="clo_system"/>
-    <project name="platform/external/rust/crates/termcolor" path="external/rust/crates/termcolor" remote="clo_system"/>
-    <project name="platform/external/rust/crates/textwrap" path="external/rust/crates/textwrap" remote="clo_system"/>
-    <project name="platform/external/rust/crates/thiserror" path="external/rust/crates/thiserror" remote="clo_system"/>
-    <project name="platform/external/rust/crates/thiserror-impl" path="external/rust/crates/thiserror-impl" remote="clo_system"/>
-    <project name="platform/external/rust/crates/thread_local" path="external/rust/crates/thread_local" remote="clo_system"/>
-    <project name="platform/external/rust/crates/tinytemplate" path="external/rust/crates/tinytemplate" remote="clo_system"/>
-    <project name="platform/external/rust/crates/tinyvec" path="external/rust/crates/tinyvec" remote="clo_system"/>
-    <project name="platform/external/rust/crates/tinyvec_macros" path="external/rust/crates/tinyvec_macros" remote="clo_system"/>
-    <project name="platform/external/rust/crates/tokio" path="external/rust/crates/tokio" remote="clo_system"/>
-    <project name="platform/external/rust/crates/tokio-macros" path="external/rust/crates/tokio-macros" remote="clo_system"/>
-    <project name="platform/external/rust/crates/tokio-stream" path="external/rust/crates/tokio-stream" remote="clo_system"/>
-    <project name="platform/external/rust/crates/tokio-test" path="external/rust/crates/tokio-test" remote="clo_system"/>
-    <project name="platform/external/rust/crates/unicode-bidi" path="external/rust/crates/unicode-bidi" remote="clo_system"/>
-    <project name="platform/external/rust/crates/unicode-normalization" path="external/rust/crates/unicode-normalization" remote="clo_system"/>
-    <project name="platform/external/rust/crates/unicode-segmentation" path="external/rust/crates/unicode-segmentation" remote="clo_system"/>
-    <project name="platform/external/rust/crates/unicode-width" path="external/rust/crates/unicode-width" remote="clo_system"/>
-    <project name="platform/external/rust/crates/unicode-xid" path="external/rust/crates/unicode-xid" remote="clo_system"/>
-    <project name="platform/external/rust/crates/untrusted" path="external/rust/crates/untrusted" remote="clo_system"/>
-    <project name="platform/external/rust/crates/url" path="external/rust/crates/url" remote="clo_system"/>
-    <project name="platform/external/rust/crates/uuid" path="external/rust/crates/uuid" remote="clo_system"/>
-    <project name="platform/external/rust/crates/vmm_vhost" path="external/rust/crates/vmm_vhost" remote="clo_system"/>
-    <project name="platform/external/rust/crates/vsock" path="external/rust/crates/vsock" remote="clo_system"/>
-    <project name="platform/external/rust/crates/walkdir" path="external/rust/crates/walkdir" remote="clo_system"/>
-    <project name="platform/external/rust/crates/weak-table" path="external/rust/crates/weak-table" remote="clo_system"/>
-    <project name="platform/external/rust/crates/which" path="external/rust/crates/which" remote="clo_system"/>
-    <project name="platform/external/rust/crates/zip" path="external/rust/crates/zip" remote="clo_system"/>
-    <project name="platform/external/rust/cxx" path="external/rust/cxx" remote="clo_system"/>
-    <project name="platform/external/ruy" path="external/ruy" remote="clo_system"/>
-    <project name="platform/external/s2-geometry-library-java" path="external/s2-geometry-library-java" remote="clo_system"/>
-    <project name="platform/external/scapy" path="external/scapy" remote="clo_system"/>
-    <project name="platform/external/scrypt" path="external/scrypt" remote="clo_system"/>
-    <project name="platform/external/scudo" path="external/scudo" remote="clo_system"/>
-    <project name="platform/external/seccomp-tests" path="external/seccomp-tests" remote="clo_system"/>
-    <project name="platform/external/selinux" path="external/selinux" remote="clo_system"/>
-    <project name="platform/external/setupcompat" path="external/setupcompat" remote="clo_system"/>
-    <project name="platform/external/setupdesign" path="external/setupdesign" remote="clo_system"/>
-    <project name="platform/external/sfntly" path="external/sfntly" remote="clo_system"/>
-    <project name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" remote="clo_system"/>
-    <project name="platform/external/shflags" path="external/shflags" remote="clo_system"/>
-    <project name="platform/external/skia" path="external/skia" remote="clo_system"/>
-    <project name="platform/external/skqp" path="external/skqp" remote="clo_system"/>
-    <project name="platform/external/sl4a" path="external/sl4a" remote="clo_system"/>
-    <project name="platform/external/slf4j" path="external/slf4j" remote="clo_system"/>
-    <project name="platform/external/smali" path="external/smali" remote="clo_system"/>
-    <project name="platform/external/snakeyaml" path="external/snakeyaml" remote="clo_system"/>
-    <project name="platform/external/sonic" path="external/sonic" remote="clo_system"/>
-    <project name="platform/external/sonivox" path="external/sonivox" remote="clo_system"/>
-    <project name="platform/external/speex" path="external/speex" remote="clo_system"/>
-    <project name="platform/external/sqlite" path="external/sqlite" remote="clo_system"/>
-    <project name="platform/external/squashfs-tools" path="external/squashfs-tools" remote="clo_system"/>
-    <project name="platform/external/starlark-go" path="external/starlark-go" remote="clo_system"/>
-    <project name="platform/external/strace" path="external/strace" remote="clo_system"/>
-    <project name="platform/external/stressapptest" path="external/stressapptest" remote="clo_system"/>
-    <project name="platform/external/subsampling-scale-image-view" path="external/subsampling-scale-image-view" remote="clo_system"/>
-    <project name="platform/external/swiftshader" path="external/swiftshader" remote="clo_system"/>
-    <project name="platform/external/tagsoup" path="external/tagsoup" remote="clo_system"/>
-    <project name="platform/external/tcpdump" path="external/tcpdump" remote="clo_system"/>
-    <project name="platform/external/tensorflow" path="external/tensorflow" remote="clo_system"/>
-    <project name="platform/external/testng" path="external/testng" remote="clo_system"/>
-    <project name="platform/external/tflite-support" path="external/tflite-support" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/FP16" path="external/FP16" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/FXdiv" path="external/FXdiv" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ImageMagick" path="external/ImageMagick" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/OpenCSD" path="external/OpenCSD" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/Reactive-Extensions/RxCpp" path="external/Reactive-Extensions/RxCpp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/TestParameterInjector" path="external/TestParameterInjector" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/XNNPACK" path="external/XNNPACK" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/aac" path="external/aac" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/abseil-cpp" path="external/abseil-cpp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/adt-infra" path="external/adt-infra" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/android-clat" path="external/android-clat" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/androidplot" path="external/androidplot" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/angle" path="external/angle" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ant-glob" path="external/ant-glob" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/antlr" path="external/antlr" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/apache-commons-bcel" path="external/apache-commons-bcel" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/apache-commons-compress" path="external/apache-commons-compress" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/apache-commons-math" path="external/apache-commons-math" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/apache-harmony" path="external/apache-harmony" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/apache-http" path="external/apache-http" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/apache-xml" path="external/apache-xml" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/arm-trusted-firmware" path="external/arm-trusted-firmware" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/auto" path="external/auto" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/autotest" path="external/autotest" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/avb" path="external/avb" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/bazelbuild-rules_android" path="external/bazelbuild-rules_android" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/bc" path="external/bc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/bcc" path="external/bcc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/blktrace" path="external/blktrace" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/boringssl" path="external/boringssl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/bouncycastle" path="external/bouncycastle" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/brotli" path="external/brotli" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/bsdiff" path="external/bsdiff" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/bzip2" path="external/bzip2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/caliper" path="external/caliper" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/capstone" path="external/capstone" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/catch2" path="external/catch2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/cblas" path="external/cblas" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/cbor-java" path="external/cbor-java" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/chromium-trace" path="external/chromium-trace" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/clang" path="external/clang" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/cldr" path="external/cldr" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/cn-cbor" path="external/cn-cbor" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/compiler-rt" path="external/compiler-rt" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/connectedappssdk" path="external/connectedappssdk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/conscrypt" path="external/conscrypt" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/cpu_features" path="external/cpu_features" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/cpuinfo" path="external/cpuinfo" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/crcalc" path="external/crcalc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/cros/system_api" path="external/cros/system_api" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/crosvm" path="external/crosvm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/curl" path="external/curl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dagger2" path="external/dagger2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/deqp" path="external/deqp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/deqp-deps/SPIRV-Headers" path="external/deqp-deps/SPIRV-Headers" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/deqp-deps/SPIRV-Tools" path="external/deqp-deps/SPIRV-Tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/deqp-deps/amber" path="external/deqp-deps/amber" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/deqp-deps/glslang" path="external/deqp-deps/glslang" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/desugar" path="external/desugar" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dexmaker" path="external/dexmaker" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dlmalloc" path="external/dlmalloc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dng_sdk" path="external/dng_sdk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dnsmasq" path="external/dnsmasq" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/doclava" path="external/doclava" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dokka" path="external/dokka" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/downloader" path="external/downloader" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/drrickorang" path="external/drrickorang" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dtc" path="external/dtc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/dynamic_depth" path="external/dynamic_depth" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/easymock" path="external/easymock" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/eigen" path="external/eigen" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/elfutils" path="external/elfutils" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/emma" path="external/emma" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/erofs-utils" path="external/erofs-utils" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/error_prone" path="external/error_prone" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/escapevelocity" path="external/escapevelocity" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ethtool" path="external/ethtool" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/exoplayer" path="external/exoplayer" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/expat" path="external/expat" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/f2fs-tools" path="external/f2fs-tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fastrpc" path="external/fastrpc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fdlibm" path="external/fdlibm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fec" path="external/fec" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fft2d" path="external/fft2d" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/firebase-messaging" path="external/firebase-messaging" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/flac" path="external/flac" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/flatbuffers" path="external/flatbuffers" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fmtlib" path="external/fmtlib" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fonttools" path="external/fonttools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/freetype" path="external/freetype" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fsck_msdos" path="external/fsck_msdos" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/fsverity-utils" path="external/fsverity-utils" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/gemmlowp" path="external/gemmlowp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/geojson-jackson" path="external/geojson-jackson" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/geonames" path="external/geonames" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/gflags" path="external/gflags" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/giflib" path="external/giflib" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/glide" path="external/glide" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/golang-protobuf" path="external/golang-protobuf" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-benchmark" path="external/google-benchmark" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-breakpad" path="external/google-breakpad" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/arbutus-slab" path="external/google-fonts/arbutus-slab" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/arvo" path="external/google-fonts/arvo" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/barlow" path="external/google-fonts/barlow" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/big-shoulders-text" path="external/google-fonts/big-shoulders-text" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/fraunces" path="external/google-fonts/fraunces" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/karla" path="external/google-fonts/karla" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/lato" path="external/google-fonts/lato" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/lustria" path="external/google-fonts/lustria" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/rubik" path="external/google-fonts/rubik" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/source-sans-pro" path="external/google-fonts/source-sans-pro" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fonts/zilla-slab" path="external/google-fonts/zilla-slab" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-fruit" path="external/google-fruit" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-java-format" path="external/google-java-format" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/google-styleguide" path="external/google-styleguide" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/googletest" path="external/googletest" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/gptfdisk" path="external/gptfdisk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/grpc-grpc" path="external/grpc-grpc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/grpc-grpc-java" path="external/grpc-grpc-java" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/guava" path="external/guava" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/guice" path="external/guice" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/gwp_asan" path="external/gwp_asan" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/hamcrest" path="external/hamcrest" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/icing" path="external/icing" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/icu" path="external/icu" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/igt-gpu-tools" path="external/igt-gpu-tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/image_io" path="external/image_io" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ims" path="external/ims" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/iperf3" path="external/iperf3" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/iproute2" path="external/iproute2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ipsec-tools" path="external/ipsec-tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/iptables" path="external/iptables" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/iputils" path="external/iputils" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/iw" path="external/iw" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jackson-annotations" path="external/jackson-annotations" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jackson-core" path="external/jackson-core" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jackson-databind" path="external/jackson-databind" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jacoco" path="external/jacoco" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jarjar" path="external/jarjar" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/javaparser" path="external/javaparser" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/javapoet" path="external/javapoet" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/javasqlite" path="external/javasqlite" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/javassist" path="external/javassist" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jcommander" path="external/jcommander" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jdiff" path="external/jdiff" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jemalloc_new" path="external/jemalloc_new" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jimfs" path="external/jimfs" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jline" path="external/jline" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jsilver" path="external/jsilver" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jsmn" path="external/jsmn" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/json-c" path="external/json-c" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jsoncpp" path="external/jsoncpp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jsr305" path="external/jsr305" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/jsr330" path="external/jsr330" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/junit" path="external/junit" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/junit-params" path="external/junit-params" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/kernel-headers" path="external/kernel-headers" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/kmod" path="external/kmod" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/kotlinc" path="external/kotlinc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/kotlinx.atomicfu" path="external/kotlinx.atomicfu" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/kotlinx.coroutines" path="external/kotlinx.coroutines" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/kotlinx.metadata" path="external/kotlinx.metadata" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ksoap2" path="external/ksoap2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libabigail" path="external/libabigail" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libaom" path="external/libaom" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libavc" path="external/libavc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libbackup" path="external/libbackup" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libbrillo" path="external/libbrillo" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libcap" path="external/libcap" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libcap-ng" path="external/libcap-ng" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libchrome" path="external/libchrome" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libchromeos-rs" path="external/libchromeos-rs" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libcppbor" path="external/libcppbor" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libcups" path="external/libcups" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libcxx" path="external/libcxx" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libcxxabi" path="external/libcxxabi" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libdivsufsort" path="external/libdivsufsort" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libdrm" path="external/libdrm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libepoxy" path="external/libepoxy" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libese" path="external/libese" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libevent" path="external/libevent" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libexif" path="external/libexif" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libffi" path="external/libffi" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libfuse" path="external/libfuse" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libgav1" path="external/libgav1" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libgsm" path="external/libgsm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libhevc" path="external/libhevc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libiio" path="external/libiio" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libkmsxx" path="external/libkmsxx" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libldac" path="external/libldac" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libmpeg2" path="external/libmpeg2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libnl" path="external/libnl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libogg" path="external/libogg" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libopus" path="external/libopus" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libpcap" path="external/libpcap" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libphonenumber" path="external/libphonenumber" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libpng" path="external/libpng" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libprotobuf-mutator" path="external/libprotobuf-mutator" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libsrtp2" path="external/libsrtp2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libtextclassifier" path="external/libtextclassifier" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libusb" path="external/libusb" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libutf" path="external/libutf" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libvpx" path="external/libvpx" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libwebm" path="external/libwebm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libwebsockets" path="external/libwebsockets" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libxaac" path="external/libxaac" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libxkbcommon" path="external/libxkbcommon" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libxml2" path="external/libxml2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/libyuv" path="external/libyuv" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/linux-kselftest" path="external/linux-kselftest" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/llvm" path="external/llvm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/lmfit" path="external/lmfit" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/lottie" path="external/lottie" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ltp" path="external/ltp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/lua" path="external/lua" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/lz4" path="external/lz4" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/lzma" path="external/lzma" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/marisa-trie" path="external/marisa-trie" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/markdown" path="external/markdown" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mdnsresponder" path="external/mdnsresponder" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mesa3d" path="external/mesa3d" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mime-support" path="external/mime-support" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/minigbm" path="external/minigbm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/minijail" path="external/minijail" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mksh" path="external/mksh" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mockftpserver" path="external/mockftpserver" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mockito" path="external/mockito" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mockwebserver" path="external/mockwebserver" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/modp_b64" path="external/modp_b64" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mp4parser" path="external/mp4parser" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ms-tpm-20-ref" path="external/ms-tpm-20-ref" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mtools" path="external/mtools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/mtpd" path="external/mtpd" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/nanohttpd" path="external/nanohttpd" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/nanopb-c" path="external/nanopb-c" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/naver-fonts" path="external/naver-fonts" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/neon_2_sse" path="external/neon_2_sse" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/neven" path="external/neven" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/newfs_msdos" path="external/newfs_msdos" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/nist-pkits" path="external/nist-pkits" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/nist-sip" path="external/nist-sip" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/nos/host/generic" path="external/nos/host/generic" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/noto-fonts" path="external/noto-fonts" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/oauth" path="external/oauth" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/objenesis" path="external/objenesis" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/oboe" path="external/oboe" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/oj-libjdwp" path="external/oj-libjdwp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/okhttp" path="external/okhttp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/okhttp4" path="external/okhttp4" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/okio" path="external/okio" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/one-true-awk" path="external/one-true-awk" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/opencensus-java" path="external/opencensus-java" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/openscreen" path="external/openscreen" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/openssh" path="external/openssh" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/oss-fuzz" path="external/oss-fuzz" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/parameter-framework" path="external/parameter-framework" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/pcre" path="external/pcre" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/pdfium" path="external/pdfium" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/perfetto" path="external/perfetto" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/pffft" path="external/pffft" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/piex" path="external/piex" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/pigweed" path="external/pigweed" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ply" path="external/ply" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ppp" path="external/ppp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/proguard" path="external/proguard" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/protobuf" path="external/protobuf" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/psimd" path="external/psimd" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/pthreadpool" path="external/pthreadpool" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/puffin" path="external/puffin" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/apitools" path="external/python/apitools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/asn1crypto" path="external/python/asn1crypto" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/cffi" path="external/python/cffi" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/cpython2" path="external/python/cpython2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/cpython3" path="external/python/cpython3" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/cryptography" path="external/python/cryptography" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/dateutil" path="external/python/dateutil" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/enum34" path="external/python/enum34" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/funcsigs" path="external/python/funcsigs" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/futures" path="external/python/futures" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/google-api-python-client" path="external/python/google-api-python-client" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/httplib2" path="external/python/httplib2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/ipaddress" path="external/python/ipaddress" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/jinja" path="external/python/jinja" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/markupsafe" path="external/python/markupsafe" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/mock" path="external/python/mock" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/oauth2client" path="external/python/oauth2client" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/parse_type" path="external/python/parse_type" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/pyasn1" path="external/python/pyasn1" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/pybind11" path="external/python/pybind11" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/pycparser" path="external/python/pycparser" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/pyfakefs" path="external/python/pyfakefs" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/pyopenssl" path="external/python/pyopenssl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/rsa" path="external/python/rsa" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/setuptools" path="external/python/setuptools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/six" path="external/python/six" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/python/uritemplates" path="external/python/uritemplates" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rappor" path="external/rappor" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/replicaisland" path="external/replicaisland" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rmi4utils" path="external/rmi4utils" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rnnoise" path="external/rnnoise" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/robolectric-shadows" path="external/robolectric-shadows" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/roboto-fonts" path="external/roboto-fonts" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rootdev" path="external/rootdev" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/ahash" path="external/rust/crates/ahash" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/aho-corasick" path="external/rust/crates/aho-corasick" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/android_log-sys" path="external/rust/crates/android_log-sys" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/android_logger" path="external/rust/crates/android_logger" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/anyhow" path="external/rust/crates/anyhow" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/arbitrary" path="external/rust/crates/arbitrary" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/async-stream" path="external/rust/crates/async-stream" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/async-stream-impl" path="external/rust/crates/async-stream-impl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/async-task" path="external/rust/crates/async-task" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/async-trait" path="external/rust/crates/async-trait" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/atty" path="external/rust/crates/atty" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/bencher" path="external/rust/crates/bencher" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/bindgen" path="external/rust/crates/bindgen" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/bitflags" path="external/rust/crates/bitflags" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/bstr" path="external/rust/crates/bstr" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/byteorder" path="external/rust/crates/byteorder" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/bytes" path="external/rust/crates/bytes" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/cast" path="external/rust/crates/cast" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/cexpr" path="external/rust/crates/cexpr" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/cfg-if" path="external/rust/crates/cfg-if" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/chrono" path="external/rust/crates/chrono" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/clang-sys" path="external/rust/crates/clang-sys" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/clap" path="external/rust/crates/clap" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/codespan-reporting" path="external/rust/crates/codespan-reporting" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/crc32fast" path="external/rust/crates/crc32fast" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/criterion" path="external/rust/crates/criterion" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/criterion-plot" path="external/rust/crates/criterion-plot" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/crossbeam-channel" path="external/rust/crates/crossbeam-channel" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/crossbeam-deque" path="external/rust/crates/crossbeam-deque" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/crossbeam-epoch" path="external/rust/crates/crossbeam-epoch" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/crossbeam-utils" path="external/rust/crates/crossbeam-utils" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/csv" path="external/rust/crates/csv" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/csv-core" path="external/rust/crates/csv-core" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/derive_arbitrary" path="external/rust/crates/derive_arbitrary" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/downcast-rs" path="external/rust/crates/downcast-rs" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/either" path="external/rust/crates/either" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/env_logger" path="external/rust/crates/env_logger" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/fallible-iterator" path="external/rust/crates/fallible-iterator" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/fallible-streaming-iterator" path="external/rust/crates/fallible-streaming-iterator" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/flate2" path="external/rust/crates/flate2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/fnv" path="external/rust/crates/fnv" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/form_urlencoded" path="external/rust/crates/form_urlencoded" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures" path="external/rust/crates/futures" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-channel" path="external/rust/crates/futures-channel" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-core" path="external/rust/crates/futures-core" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-executor" path="external/rust/crates/futures-executor" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-io" path="external/rust/crates/futures-io" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-macro" path="external/rust/crates/futures-macro" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-sink" path="external/rust/crates/futures-sink" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-task" path="external/rust/crates/futures-task" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/futures-util" path="external/rust/crates/futures-util" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/gdbstub" path="external/rust/crates/gdbstub" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/gdbstub_arch" path="external/rust/crates/gdbstub_arch" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/getrandom" path="external/rust/crates/getrandom" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/glob" path="external/rust/crates/glob" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/grpcio" path="external/rust/crates/grpcio" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/grpcio-compiler" path="external/rust/crates/grpcio-compiler" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/grpcio-sys" path="external/rust/crates/grpcio-sys" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/half" path="external/rust/crates/half" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/hashbrown" path="external/rust/crates/hashbrown" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/hashlink" path="external/rust/crates/hashlink" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/heck" path="external/rust/crates/heck" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/idna" path="external/rust/crates/idna" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/instant" path="external/rust/crates/instant" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/intrusive-collections" path="external/rust/crates/intrusive-collections" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/itertools" path="external/rust/crates/itertools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/itoa" path="external/rust/crates/itoa" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/lazy_static" path="external/rust/crates/lazy_static" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/lazycell" path="external/rust/crates/lazycell" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/libc" path="external/rust/crates/libc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/libfuzzer-sys" path="external/rust/crates/libfuzzer-sys" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/libloading" path="external/rust/crates/libloading" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/libm" path="external/rust/crates/libm" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/libsqlite3-sys" path="external/rust/crates/libsqlite3-sys" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/libz-sys" path="external/rust/crates/libz-sys" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/linked-hash-map" path="external/rust/crates/linked-hash-map" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/lock_api" path="external/rust/crates/lock_api" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/log" path="external/rust/crates/log" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/lru-cache" path="external/rust/crates/lru-cache" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/macaddr" path="external/rust/crates/macaddr" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/managed" path="external/rust/crates/managed" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/matches" path="external/rust/crates/matches" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/memchr" path="external/rust/crates/memchr" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/memoffset" path="external/rust/crates/memoffset" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/mio" path="external/rust/crates/mio" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/nix" path="external/rust/crates/nix" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/no-panic" path="external/rust/crates/no-panic" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/nom" path="external/rust/crates/nom" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/num-derive" path="external/rust/crates/num-derive" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/num-integer" path="external/rust/crates/num-integer" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/num-traits" path="external/rust/crates/num-traits" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/num_cpus" path="external/rust/crates/num_cpus" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/once_cell" path="external/rust/crates/once_cell" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/oorandom" path="external/rust/crates/oorandom" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/parking_lot" path="external/rust/crates/parking_lot" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/parking_lot_core" path="external/rust/crates/parking_lot_core" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/paste" path="external/rust/crates/paste" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/peeking_take_while" path="external/rust/crates/peeking_take_while" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/percent-encoding" path="external/rust/crates/percent-encoding" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/pin-project" path="external/rust/crates/pin-project" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/pin-project-internal" path="external/rust/crates/pin-project-internal" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/pin-project-lite" path="external/rust/crates/pin-project-lite" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/pin-utils" path="external/rust/crates/pin-utils" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/plotters" path="external/rust/crates/plotters" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/plotters-backend" path="external/rust/crates/plotters-backend" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/plotters-svg" path="external/rust/crates/plotters-svg" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/ppv-lite86" path="external/rust/crates/ppv-lite86" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/proc-macro-error" path="external/rust/crates/proc-macro-error" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/proc-macro-error-attr" path="external/rust/crates/proc-macro-error-attr" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/proc-macro-hack" path="external/rust/crates/proc-macro-hack" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/proc-macro-nested" path="external/rust/crates/proc-macro-nested" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/proc-macro2" path="external/rust/crates/proc-macro2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/protobuf" path="external/rust/crates/protobuf" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/protobuf-codegen" path="external/rust/crates/protobuf-codegen" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/quiche" path="external/rust/crates/quiche" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/quote" path="external/rust/crates/quote" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rand" path="external/rust/crates/rand" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rand_chacha" path="external/rust/crates/rand_chacha" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rand_core" path="external/rust/crates/rand_core" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rand_xorshift" path="external/rust/crates/rand_xorshift" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rayon" path="external/rust/crates/rayon" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rayon-core" path="external/rust/crates/rayon-core" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/regex" path="external/rust/crates/regex" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/regex-automata" path="external/rust/crates/regex-automata" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/regex-syntax" path="external/rust/crates/regex-syntax" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/remain" path="external/rust/crates/remain" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/ring" path="external/rust/crates/ring" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rusqlite" path="external/rust/crates/rusqlite" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rustc-hash" path="external/rust/crates/rustc-hash" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/rustversion" path="external/rust/crates/rustversion" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/ryu" path="external/rust/crates/ryu" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/same-file" path="external/rust/crates/same-file" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/scopeguard" path="external/rust/crates/scopeguard" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/serde" path="external/rust/crates/serde" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/serde_cbor" path="external/rust/crates/serde_cbor" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/serde_derive" path="external/rust/crates/serde_derive" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/serde_json" path="external/rust/crates/serde_json" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/serde_test" path="external/rust/crates/serde_test" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/shared_child" path="external/rust/crates/shared_child" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/shlex" path="external/rust/crates/shlex" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/simplelog" path="external/rust/crates/simplelog" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/slab" path="external/rust/crates/slab" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/smallvec" path="external/rust/crates/smallvec" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/spin" path="external/rust/crates/spin" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/structopt" path="external/rust/crates/structopt" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/structopt-derive" path="external/rust/crates/structopt-derive" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/syn" path="external/rust/crates/syn" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/syn-mid" path="external/rust/crates/syn-mid" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/termcolor" path="external/rust/crates/termcolor" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/textwrap" path="external/rust/crates/textwrap" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/thiserror" path="external/rust/crates/thiserror" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/thiserror-impl" path="external/rust/crates/thiserror-impl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/thread_local" path="external/rust/crates/thread_local" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/tinytemplate" path="external/rust/crates/tinytemplate" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/tinyvec" path="external/rust/crates/tinyvec" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/tinyvec_macros" path="external/rust/crates/tinyvec_macros" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/tokio" path="external/rust/crates/tokio" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/tokio-macros" path="external/rust/crates/tokio-macros" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/tokio-stream" path="external/rust/crates/tokio-stream" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/tokio-test" path="external/rust/crates/tokio-test" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/unicode-bidi" path="external/rust/crates/unicode-bidi" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/unicode-normalization" path="external/rust/crates/unicode-normalization" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/unicode-segmentation" path="external/rust/crates/unicode-segmentation" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/unicode-width" path="external/rust/crates/unicode-width" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/unicode-xid" path="external/rust/crates/unicode-xid" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/untrusted" path="external/rust/crates/untrusted" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/url" path="external/rust/crates/url" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/uuid" path="external/rust/crates/uuid" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/vmm_vhost" path="external/rust/crates/vmm_vhost" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/vsock" path="external/rust/crates/vsock" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/walkdir" path="external/rust/crates/walkdir" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/weak-table" path="external/rust/crates/weak-table" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/which" path="external/rust/crates/which" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/crates/zip" path="external/rust/crates/zip" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/rust/cxx" path="external/rust/cxx" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ruy" path="external/ruy" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/s2-geometry-library-java" path="external/s2-geometry-library-java" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/scapy" path="external/scapy" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/scrypt" path="external/scrypt" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/scudo" path="external/scudo" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/seccomp-tests" path="external/seccomp-tests" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/selinux" path="external/selinux" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/setupcompat" path="external/setupcompat" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/setupdesign" path="external/setupdesign" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/sfntly" path="external/sfntly" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/shflags" path="external/shflags" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/skia" path="external/skia" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/skqp" path="external/skqp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/sl4a" path="external/sl4a" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/slf4j" path="external/slf4j" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/smali" path="external/smali" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/snakeyaml" path="external/snakeyaml" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/sonic" path="external/sonic" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/sonivox" path="external/sonivox" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/speex" path="external/speex" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/sqlite" path="external/sqlite" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/squashfs-tools" path="external/squashfs-tools" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/starlark-go" path="external/starlark-go" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/strace" path="external/strace" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/stressapptest" path="external/stressapptest" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/subsampling-scale-image-view" path="external/subsampling-scale-image-view" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/swiftshader" path="external/swiftshader" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tagsoup" path="external/tagsoup" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tcpdump" path="external/tcpdump" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tensorflow" path="external/tensorflow" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/testng" path="external/testng" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tflite-support" path="external/tflite-support" remote="clo_system"/>
     <project clone-depth="2" name="platform/external/timezone-boundary-builder" path="external/timezone-boundary-builder" remote="clo_system"/>
-    <project name="platform/external/tinyalsa" path="external/tinyalsa" remote="clo_system"/>
-    <project name="platform/external/tinyalsa_new" path="external/tinyalsa_new" remote="clo_system"/>
-    <project name="platform/external/tinycompress" path="external/tinycompress" remote="clo_system"/>
-    <project name="platform/external/tinyxml2" path="external/tinyxml2" remote="clo_system"/>
-    <project name="platform/external/toybox" path="external/toybox" remote="clo_system"/>
-    <project name="platform/external/tpm2-tss" path="external/tpm2-tss" remote="clo_system"/>
-    <project name="platform/external/tremolo" path="external/tremolo" remote="clo_system"/>
-    <project name="platform/external/turbine" path="external/turbine" remote="clo_system"/>
-    <project name="platform/external/ukey2" path="external/ukey2" remote="clo_system"/>
-    <project name="platform/external/unicode" path="external/unicode" remote="clo_system"/>
-    <project name="platform/external/usrsctp" path="external/usrsctp" remote="clo_system"/>
-    <project name="platform/external/v4l2_codec2" path="external/v4l2_codec2" remote="clo_system"/>
-    <project name="platform/external/vboot_reference" path="external/vboot_reference" remote="clo_system"/>
-    <project name="platform/external/virglrenderer" path="external/virglrenderer" remote="clo_system"/>
-    <project name="platform/external/vixl" path="external/vixl" remote="clo_system"/>
-    <project name="platform/external/vogar" path="external/vogar" remote="clo_system"/>
-    <project name="platform/external/volley" path="external/volley" remote="clo_system"/>
-    <project name="platform/external/vulkan-headers" path="external/vulkan-headers" remote="clo_system"/>
-    <project name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" remote="clo_system"/>
-    <project name="platform/external/walt" path="external/walt" remote="clo_system"/>
-    <project name="platform/external/wayland_repo" path="external/wayland" remote="clo_system"/>
-    <project name="platform/external/wayland-protocols" path="external/wayland-protocols" remote="clo_system"/>
-    <project name="platform/external/webp" path="external/webp" remote="clo_system"/>
-    <project name="platform/external/webrtc" path="external/webrtc" remote="clo_system"/>
-    <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="clo_system"/>
-    <project name="platform/external/wycheproof" path="external/wycheproof" remote="clo_system"/>
-    <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit" remote="clo_system"/>
-    <project name="platform/external/xz-embedded" path="external/xz-embedded" remote="clo_system"/>
-    <project name="platform/external/xz-java" path="external/xz-java" remote="clo_system"/>
-    <project name="platform/external/yapf" path="external/yapf" remote="clo_system"/>
-    <project name="platform/external/zlib" path="external/zlib" remote="clo_system"/>
-    <project name="platform/external/zopfli" path="external/zopfli" remote="clo_system"/>
-    <project name="platform/external/zstd" path="external/zstd" remote="clo_system"/>
-    <project name="platform/external/zxing" path="external/zxing" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tinyalsa" path="external/tinyalsa" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tinyalsa_new" path="external/tinyalsa_new" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tinycompress" path="external/tinycompress" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tinyxml2" path="external/tinyxml2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/toybox" path="external/toybox" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tpm2-tss" path="external/tpm2-tss" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/tremolo" path="external/tremolo" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/turbine" path="external/turbine" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/ukey2" path="external/ukey2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/unicode" path="external/unicode" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/usrsctp" path="external/usrsctp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/vboot_reference" path="external/vboot_reference" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/virglrenderer" path="external/virglrenderer" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/vixl" path="external/vixl" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/vogar" path="external/vogar" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/volley" path="external/volley" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/vulkan-headers" path="external/vulkan-headers" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/walt" path="external/walt" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/wayland_repo" path="external/wayland" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/wayland-protocols" path="external/wayland-protocols" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/webp" path="external/webp" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/webrtc" path="external/webrtc" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/wycheproof" path="external/wycheproof" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/xz-embedded" path="external/xz-embedded" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/xz-java" path="external/xz-java" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/yapf" path="external/yapf" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/zlib" path="external/zlib" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/zopfli" path="external/zopfli" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/zstd" path="external/zstd" remote="clo_system"/>
+    <project clone-depth="1" name="platform/external/zxing" path="external/zxing" remote="clo_system"/>
     <project name="platform/frameworks/av" path="frameworks/av" remote="clo_system"/>
     <project name="platform/frameworks/base" path="frameworks/base" remote="clo_system"/>
     <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" remote="clo_system"/>
