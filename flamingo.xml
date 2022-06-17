@@ -57,6 +57,7 @@
     <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
 
     <!-- Hardware -->
+    <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="flamingo" />
 
