@@ -64,7 +64,7 @@
     <!-- Packages -->
     <project path="packages/apps/Camera" name="platform_external_Camera" remote="grapheneos" />
     <project path="packages/apps/FlamingoSettings" name="packages_apps_FlamingoSettings" remote="flamingo"/>
-    <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="flamingo" />
+    <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="flamingo" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flamingo" />
     <project path="packages/apps/MatlogX" name="packages_apps_MatlogX" remote="flamingo" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>
