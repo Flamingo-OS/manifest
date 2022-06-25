@@ -85,6 +85,7 @@
     <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="flamingo" />
     <project path="vendor/flamingo" name="vendor_flamingo" remote="flamingo" />
     <project path="vendor/lawnchair" name="vendor_lawnchair" remote="flamingo" />
+    <project path="vendor/prebuilts" name="vendor_prebuilts" remote="flamingo" clone-depth="1" />
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa-blobs" clone-depth="1" />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
