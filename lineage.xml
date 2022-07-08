@@ -11,7 +11,11 @@
     <!-- External -->
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage"/>
 
-    <!-- Device settings -->
+    <!-- Packages -->
+    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lineage" />
+    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lineage" />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lineage" />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lineage" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
     <!-- Extract scripts and tools -->
