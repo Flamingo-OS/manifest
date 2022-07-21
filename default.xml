@@ -2,8 +2,6 @@
     
     <remote name="github" fetch="ssh://git@github.com/" />
 
-    <remote name="gitlab" fetch="ssh://git@gitlab.com/" />
-
     <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.12.0.r1-08300-qssi.0" />
 
     <remote name="clo_vendor" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.UM.9.14.2.r1-01100-QCM6490.QSSI12.0" />
@@ -15,10 +13,6 @@
     <remote name="flamingo-gitlab" fetch="ssh://git@gitlab.com/Flamingo-OS/" revision="A12.1" />
 
     <remote name="flamingo-devices" fetch="ssh://git@github.com/FlamingoOS-Devices/" revision="A12.1" />
-
-    <remote name="aospa" fetch="https://github.com/AOSPA/" revision="sapphire" />
-
-    <remote name="aospa-blobs" fetch="https://github.com/ThankYouMario/" revision="sapphire" />
 
     
     <include name="system.xml" />
