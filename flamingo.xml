@@ -46,7 +46,7 @@
     <!-- External -->
     <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" />
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />
-    <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46"
+    <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
     <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
     <project path="external/fastrpc" name="external_fastrpc" remote="flamingo" />
     <project path="external/gptfdisk" name="external_gptfdisk" remote="flamingo" />
