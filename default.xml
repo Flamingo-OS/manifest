@@ -6,7 +6,7 @@
 
     <remote name="clo_vendor" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.UM.9.15.r1-06300-KAMORTA.QSSI13.0" />
 
-    <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-12.1.0_r5" />
+    <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-13.0.0_r3" />
 
     <remote name="flamingo" fetch="ssh://git@github.com/Flamingo-OS/" revision="A12.1" />
 
