@@ -140,18 +140,19 @@
     <remove-project name="platform/packages/services/Telecomm"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>-->
 
-    <!-- System
+    <!-- System -->
+    
     <remove-project name="platform/system/core"/>
     <project path="system/core" name="system_core" remote="flamingo"/>
 
-    <remove-project name="platform/system/libziparchive"/>
-    <project path="system/libziparchive" name="system_libziparchive" remote="flamingo"/>
+    <!--remove-project name="platform/system/libziparchive"/>
+    <project path="system/libziparchive" name="system_libziparchive" remote="flamingo"/-->
 
     <remove-project name="platform/system/sepolicy"/>
     <project path="system/sepolicy" name="system_sepolicy" remote="flamingo"/>
 
-    <remove-project name="platform/system/update_engine"/>
-    <project path="system/update_engine" name="system_update_engine" remote="flamingo"/> -->
+    <!--remove-project name="platform/system/update_engine"/>
+    <project path="system/update_engine" name="system_update_engine" remote="flamingo"/ -->
 
     <!-- Vendor
     <remove-project name="platform/vendor/codeaurora/telephony"/>
