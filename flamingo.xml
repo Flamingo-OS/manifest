@@ -169,11 +169,11 @@
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />
 
     <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />-->
 
-    <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="clo_system" revision="refs/tags/LA.QSSI.11.0.r1-16200-qssi.0" />
+    <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="clo_system" revision="refs/tags/LA.QSSI.11.0.r1-16900-qssi.0" />
 
-    <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+    <!--<remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="flamingo" />
 
     <remove-project name="platform/vendor/qcom-opensource/power" />
