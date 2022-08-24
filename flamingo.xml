@@ -62,14 +62,14 @@
     <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" />
 
     <!--<remove-project name="platform/external/e2fsprogs" />
-    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />-->
 
     <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
     <remove-project name="platform/external/fastrpc" />
     <project path="external/fastrpc" name="external_fastrpc" remote="flamingo" />
 
-    <remove-project name="platform/external/gptfdisk" />
+    <!--<remove-project name="platform/external/gptfdisk" />
     <project path="external/gptfdisk" name="external_gptfdisk" remote="flamingo" />
 
     <remove-project name="platform/external/mksh" />
