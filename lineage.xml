@@ -8,8 +8,9 @@
     <!-- Hardware -->
     <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 
-    <!-- External -->
-    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage"/>
+    <!-- External
+    <remove-project name="platform/external/exfatprogs"/>
+    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage"/>-->
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Contacts"/>
