@@ -166,10 +166,10 @@
     <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom-opensource_packages_apps_Bluetooth" remote="flamingo" />
 
     <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />-->
 
     <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />-->
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
 
     <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="clo_system" revision="refs/tags/LA.QSSI.11.0.r1-16900-qssi.0" />
 
