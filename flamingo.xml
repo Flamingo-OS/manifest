@@ -42,7 +42,7 @@
     <!-- Device -->
     <project path="device/flamingo/sepolicy" name="device_flamingo_sepolicy" remote="flamingo" />
 
-    <!-- <remove-project name="device/qcom/common" />
+    <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="device_qcom_common" remote="flamingo">
         <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     </project>
@@ -56,7 +56,7 @@
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="flamingo" />
 
     <remove-project name="device/qcom/vendor-common" />
-    <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="flamingo"/>-->
+    <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="flamingo"/>
 
     <!-- External -->
     <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" />
