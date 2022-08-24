@@ -75,7 +75,7 @@
     <remove-project name="platform/external/mksh" />
     <project path="external/mksh" name="external_mksh" remote="flamingo" />-->
 
-    <!-- Framework
+    <!-- Framework -->
     <remove-project name="platform/frameworks/av" />
     <project path="frameworks/av" name="frameworks_av" remote="flamingo"/>
 
@@ -86,7 +86,7 @@
     <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="flamingo"/>
 
     <remove-project name="platform/frameworks/native" />
-    <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>-->
+    <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
 
     <!-- Hardware -->
     <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
