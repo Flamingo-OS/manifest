@@ -41,6 +41,7 @@
     <remove-project name="platform/packages/apps/SnapdragonCamera"/>
 
     <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
+    <remove-project name="platform/vendor/opensource/audio-kernel" />
     <remove-project name="platform/vendor/opensource/camera-kernel" />
     <remove-project name="platform/vendor/opensource/display-drivers" />
     <remove-project name="platform/vendor/opensource/video-driver" />
