@@ -182,7 +182,7 @@
     <remove-project name="platform/vendor/qcom-opensource/vibrator" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="flamingo" />
 
-    <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="12" clone-depth="1" />
+    <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="14" clone-depth="1" />
     <project path="vendor/support" name="vendor_support" remote="flamingo" />
     <project path="vendor/themes" name="vendor_themes" remote="flamingo" />
 
