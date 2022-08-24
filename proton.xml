@@ -7,6 +7,8 @@
     <!-- External -->
     <project path="external/colorkt" name="android_external_colorkt" remote="proton" />
     <project path="external/themelib" name="android_external_themelib" remote="proton" />
+
+    <remove-project name="platform/external/zlib" />
     <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" />
 
     <!-- Packages -->

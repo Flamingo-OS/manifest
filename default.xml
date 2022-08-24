@@ -19,10 +19,10 @@
     <include name="vendor.xml" />
 
     
-    <!--<include name="remove.xml" />
+    <include name="remove.xml" />
 
     
-    <include name="flamingo.xml" />
+    <!--<include name="flamingo.xml" />
     <include name="lineage.xml" />
     <include name="proton.xml" />-->
 

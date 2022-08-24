@@ -34,72 +34,19 @@
     <remove-project name="device/qcom/vendor-common" />
     <remove-project name="device/sample" />
 
-    <remove-project name="platform/art" />
-
-    <remove-project name="platform/bionic" />
-
-    <remove-project name="platform/bootable/recovery" />
-
-    <remove-project name="platform/build_repo" />
-    <remove-project name="platform/build/soong" />
-
-    <remove-project name="platform/cts"/>
-
-    <remove-project name="platform/external/e2fsprogs" />
-    <remove-project name="platform/external/erofs-utils" />
-    <remove-project name="platform/external/fastrpc" />
-    <remove-project name="platform/external/gptfdisk" />
-    <remove-project name="platform/external/mksh" />
-    <remove-project name="platform/external/zlib" />
-
-    <remove-project name="platform/frameworks/av" />
-    <remove-project name="platform/frameworks/base" />
-    <remove-project name="platform/frameworks/libs/systemui" />
-    <remove-project name="platform/frameworks/native" />
-
     <remove-project name="kernel/build" />
     <remove-project name="kernel/msm-5.4" />
 
-    <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/nxp/nfc" />
     <remove-project name="platform/hardware/nxp/secure_element" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/display" />
     <remove-project name="platform/hardware/qcom/media" />
 
-    <remove-project name="platform/libcore" />
-
     <remove-project name="platform/packages/apps/Browser2"/>
-    <remove-project name="platform/packages/apps/Camera2"/>
-    <remove-project name="platform/packages/apps/Contacts"/>
-    <remove-project name="platform/packages/apps/DeskClock"/>
-    <remove-project name="platform/packages/apps/EmergencyInfo"/>
-    <remove-project name="platform/packages/apps/Launcher3"/>
-    <remove-project name="platform/packages/apps/Messaging"/>
-    <remove-project name="platform/packages/apps/Settings"/>
-    <remove-project name="platform/packages/apps/SettingsIntelligence"/>
     <remove-project name="platform/packages/apps/SnapdragonCamera"/>
-    <remove-project name="platform/packages/apps/ThemePicker"/>
-    <remove-project name="platform/packages/inputmethods/LatinIME"/>
-    <remove-project name="platform/packages/modules/adb"/>
-    <remove-project name="platform/packages/modules/Connectivity"/>
-    <remove-project name="platform/packages/modules/Permission"/>
-    <remove-project name="platform/packages/modules/Wifi"/>
-    <remove-project name="platform/packages/providers/DownloadProvider" />
-    <remove-project name="platform/packages/services/Telecomm"/>
-
-    <remove-project name="platform/system/core"/>
-    <remove-project name="platform/system/libziparchive"/>
-    <remove-project name="platform/system/sepolicy"/>
-    <remove-project name="platform/system/update_engine"/>
 
     <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
-    <remove-project name="platform/vendor/codeaurora/telephony"/>
-
     <remove-project name="platform/vendor/qcom-opensource/location" />
-    <remove-project name="platform/vendor/qcom-opensource/power" />
-    <remove-project name="platform/vendor/qcom-opensource/vibrator" />
-    <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-    <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-    <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+
 </manifest>
