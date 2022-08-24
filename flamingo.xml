@@ -91,8 +91,8 @@
     <!-- Hardware -->
     <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
 
-    <!--<remove-project name="platform/hardware/libhardware" />
-    <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>-->
+    <remove-project name="platform/hardware/libhardware" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>
 
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="flamingo" />
 
