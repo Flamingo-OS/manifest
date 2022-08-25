@@ -108,7 +108,7 @@
     <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="flamingo" />-->
 
     <project path="packages/apps/FlamingoSettings" name="packages_apps_FlamingoSettings" remote="flamingo"/>
-    <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" />
+    <!-- <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" /> -->
 
     <!--<remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flamingo" />
