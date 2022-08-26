@@ -5,13 +5,13 @@
         fetch="ssh://git@github.com/GrapheneOS/"
         revision="12.1" />
 
-    <!-- ART
+    <!-- ART -->
     <remove-project name="platform/art" />
-    <project path="art" name="art" remote="flamingo"/>-->
+    <project path="art" name="art" remote="flamingo"/>
 
-    <!-- Bionic
+    <!-- Bionic -->
     <remove-project name="platform/bionic" />
-    <project path="bionic" name="bionic" remote="flamingo"/>-->
+    <project path="bionic" name="bionic" remote="flamingo"/>
 
     <!-- Recovery
     <remove-project name="platform/bootable/recovery" />
