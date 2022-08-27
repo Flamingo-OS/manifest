@@ -111,21 +111,21 @@
     <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="flamingo" />-->
 
     <project path="packages/apps/FlamingoSettings" name="packages_apps_FlamingoSettings" remote="flamingo"/>
-    <!-- <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" /> -->
+    <!-- <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" />
 
-    <!--<remove-project name="platform/packages/apps/Launcher3"/>
+    <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flamingo" />
 
     <remove-project name="platform/packages/apps/Settings"/>
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>
 
     <remove-project name="platform/packages/apps/SettingsIntelligence"/>
-    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="flamingo"/>
+    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="flamingo"/> -->
 
     <remove-project name="platform/packages/apps/ThemePicker"/>
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="flamingo"/>
 
-    <remove-project name="platform/packages/modules/adb"/>
+    <!-- <remove-project name="platform/packages/modules/adb"/>
     <project path="packages/modules/adb" name="packages_modules_adb" remote="flamingo"/>
 
     <remove-project name="platform/packages/modules/Connectivity"/>
@@ -141,7 +141,7 @@
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="flamingo"/>
 
     <remove-project name="platform/packages/services/Telecomm"/>
-    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>-->
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/> -->
 
     <!-- System -->
     
