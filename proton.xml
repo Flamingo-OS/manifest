@@ -5,14 +5,14 @@
         revision="sc-v2" />
 
     <!-- External -->
-    <project path="external/colorkt" name="android_external_colorkt" remote="proton" />
+    <!-- <project path="external/colorkt" name="android_external_colorkt" remote="proton" />
     <project path="external/themelib" name="android_external_themelib" remote="proton" />
 
     <remove-project name="platform/external/zlib" />
-    <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" />
+    <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" /> -->
 
     <!-- Packages -->
-    <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" />
+    <!-- <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" /> -->
     <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
 
 </manifest>
