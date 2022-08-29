@@ -3,7 +3,7 @@
 
     <remote name="grapheneos"
         fetch="ssh://git@github.com/GrapheneOS/"
-        revision="12.1" />
+        revision="13" />
 
     <!-- ART -->
     <remove-project name="platform/art" />
@@ -99,9 +99,9 @@
 
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="flamingo" />
 
-    <!-- Libcore
+    <!-- Libcore -->
     <remove-project name="platform/libcore" />
-    <project path="libcore" name="libcore" remote="flamingo" />-->
+    <project path="libcore" name="libcore" remote="flamingo" />
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Camera2"/>
@@ -112,16 +112,16 @@
 
     <project path="packages/apps/FlamingoSettings" name="packages_apps_FlamingoSettings" remote="flamingo"/>
     <project path="packages/apps/FlamingoSystemUI" name="packages_apps_FlamingoSystemUI" remote="flamingo"/>
-    <!-- <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" />
+    <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" />
 
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flamingo" />
 
-    <remove-project name="platform/packages/apps/Settings"/>
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>
+    <!--<remove-project name="platform/packages/apps/Settings"/>
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>-->
 
     <remove-project name="platform/packages/apps/SettingsIntelligence"/>
-    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="flamingo"/> -->
+    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="flamingo"/>
 
     <remove-project name="platform/packages/apps/ThemePicker"/>
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="flamingo"/>
