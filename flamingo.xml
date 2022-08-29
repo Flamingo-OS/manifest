@@ -124,7 +124,7 @@
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="flamingo"/>
 
     <!-- <remove-project name="platform/packages/modules/adb"/>
-    <project path="packages/modules/adb" name="packages_modules_adb" remote="flamingo"/>
+    <project path="packages/modules/adb" name="packages_modules_adb" remote="flamingo"/>-->
 
     <remove-project name="platform/packages/modules/Connectivity"/>
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="flamingo"/>
@@ -132,7 +132,7 @@
     <remove-project name="platform/packages/modules/Permission"/>
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="flamingo"/>
 
-    <remove-project name="platform/packages/modules/Wifi"/>
+    <!--<remove-project name="platform/packages/modules/Wifi"/>
     <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="flamingo"/>
 
     <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -142,7 +142,6 @@
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/> -->
 
     <!-- System -->
-    
     <remove-project name="platform/system/core"/>
     <project path="system/core" name="system_core" remote="flamingo"/>
 
