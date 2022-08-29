@@ -114,8 +114,8 @@
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flamingo" />
 
-    <!--<remove-project name="platform/packages/apps/Settings"/>
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>-->
+    <remove-project name="platform/packages/apps/Settings"/>
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>
 
     <remove-project name="platform/packages/apps/SettingsIntelligence"/>
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="flamingo"/>
