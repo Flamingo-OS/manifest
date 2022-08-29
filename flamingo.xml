@@ -48,7 +48,7 @@
     </project>
 
     <remove-project name="kernel/build" />
-    <project path="device/qcom/kernelscripts" name="device_qcom_kernelscripts" remote="flamingo" >
+    <project path="device/qcom/kernelscripts" name="device_qcom_kernelscripts" remote="flamingo" revision="A12.1">
         <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
     </project>
 
