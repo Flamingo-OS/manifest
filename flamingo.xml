@@ -132,13 +132,13 @@
     <remove-project name="platform/packages/modules/Permission"/>
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="flamingo"/>
 
-    <!--<remove-project name="platform/packages/modules/Wifi"/>
+    <remove-project name="platform/packages/modules/Wifi"/>
     <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="flamingo"/>
 
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="flamingo"/>
 
-    <remove-project name="platform/packages/services/Telecomm"/>
+    <!--<remove-project name="platform/packages/services/Telecomm"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/> -->
 
     <!-- System -->
