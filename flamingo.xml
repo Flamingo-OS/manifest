@@ -132,6 +132,9 @@
     <remove-project name="platform/packages/modules/Connectivity"/>
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="flamingo"/>
 
+    <remove-project name="platform/packages/modules/NetworkStack"/>
+    <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="flamingo"/>
+
     <remove-project name="platform/packages/modules/Permission"/>
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="flamingo"/>
 
