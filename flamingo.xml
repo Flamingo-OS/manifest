@@ -13,9 +13,9 @@
     <remove-project name="platform/bionic" />
     <project path="bionic" name="bionic" remote="flamingo"/>
 
-    <!-- Recovery
+    <!-- Recovery -->
     <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="bootable_recovery" remote="flamingo"/>-->
+    <project path="bootable/recovery" name="bootable_recovery" remote="flamingo"/>
 
     <!-- Build -->
     <remove-project name="platform/build_repo" />
@@ -61,19 +61,19 @@
     <!-- External -->
     <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" />
 
-    <!--<remove-project name="platform/external/e2fsprogs" />
-    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />-->
+    <remove-project name="platform/external/e2fsprogs" />
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />
 
     <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
     <remove-project name="platform/external/fastrpc" />
     <project path="external/fastrpc" name="external_fastrpc" remote="flamingo" />
 
-    <!--<remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/gptfdisk" />
     <project path="external/gptfdisk" name="external_gptfdisk" remote="flamingo" />
 
     <remove-project name="platform/external/mksh" />
-    <project path="external/mksh" name="external_mksh" remote="flamingo" />-->
+    <project path="external/mksh" name="external_mksh" remote="flamingo" />
 
     <!-- Framework -->
     <remove-project name="platform/frameworks/av" />
@@ -160,8 +160,11 @@
     <remove-project name="platform/system/core"/>
     <project path="system/core" name="system_core" remote="flamingo"/>
 
-    <!--remove-project name="platform/system/libziparchive"/>
-    <project path="system/libziparchive" name="system_libziparchive" remote="flamingo"/-->
+    <remove-project name="platform/system/libhidl"/>
+    <project path="system/libhidl" name="system_libhidl" remote="flamingo"/>
+
+    <remove-project name="platform/system/libziparchive"/>
+    <project path="system/libziparchive" name="system_libziparchive" remote="flamingo"/>
 
     <remove-project name="platform/system/sepolicy"/>
     <project path="system/sepolicy" name="system_sepolicy" remote="flamingo"/>
