@@ -129,6 +129,9 @@
     <!-- <remove-project name="platform/packages/modules/adb"/>
     <project path="packages/modules/adb" name="packages_modules_adb" remote="flamingo"/>-->
 
+    <remove-project name="platform/packages/modules/Bluetooth"/>
+    <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="flamingo"/>
+
     <remove-project name="platform/packages/modules/Connectivity"/>
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="flamingo"/>
 
