@@ -12,7 +12,7 @@
     <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" /> -->
 
     <!-- Packages -->
-    <!-- <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" /> -->
+    <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" />
     <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
 
 </manifest>
