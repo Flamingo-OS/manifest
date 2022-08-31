@@ -141,6 +141,9 @@
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="flamingo"/>
 
+    <remove-project name="platform/packages/providers/MediaProvider" />
+    <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="flamingo"/>
+
     <!--<remove-project name="platform/packages/services/Telecomm"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/> -->
 
