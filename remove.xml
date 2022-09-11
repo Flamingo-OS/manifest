@@ -29,7 +29,7 @@
     <remove-project name="device/linaro/poplar-kernel" />
     <remove-project name="device/sample" />
 
-    <remove-project name="kernel/msm-4.19" />
+    <remove-project name="kernel/msm-5.4" />
 
     <remove-project name="platform/hardware/nxp/nfc" />
     <remove-project name="platform/hardware/nxp/secure_element" />

@@ -5,7 +5,7 @@
     <project name="device/qcom/sepolicy_vndr" remote="clo_vendor"/>
     <project name="device/qcom/vendor-common" remote="clo_vendor"/>
     <project name="kernel/build" path="device/qcom/kernelscripts" remote="clo_vendor"/>
-    <project name="kernel/msm-4.19" remote="clo_vendor"/>
+    <project name="kernel/msm-5.4" remote="clo_vendor"/>
     <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="clo_vendor"/>
     <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" remote="clo_vendor"/>
     <project name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="clo_vendor"/>
@@ -17,13 +17,13 @@
     <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" remote="clo_vendor"/>
     <project name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" remote="clo_vendor"/>
     <project name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="clo_vendor"/>
-    <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" remote="clo_vendor"/>
-    <project name="platform/vendor/opensource/camera-kernel" path="kernel/msm-4.19/techpack/camera" remote="clo_vendor"/>
-    <project name="platform/vendor/opensource/display-drivers" path="kernel/msm-4.19/techpack/display" remote="clo_vendor"/>
-    <project name="platform/vendor/opensource/video-driver" path="kernel/msm-4.19/techpack/video" remote="clo_vendor"/>
+    <project name="platform/vendor/opensource/audio-kernel" path="kernel/msm-5.4/techpack/audio" remote="clo_vendor"/>
+    <project name="platform/vendor/opensource/camera-kernel" path="kernel/msm-5.4/techpack/camera" remote="clo_vendor"/>
+    <project name="platform/vendor/opensource/dataipa" path="kernel/msm-5.4/techpack/dataipa" remote="clo_vendor"/>
+    <project name="platform/vendor/opensource/display-drivers" path="kernel/msm-5.4/techpack/display" remote="clo_vendor"/>
+    <project name="platform/vendor/opensource/video-driver" path="kernel/msm-5.4/techpack/video" remote="clo_vendor"/>
     <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="clo_vendor"/>
     <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="clo_vendor"/>
-    <project name="platform/vendor/qcom-opensource/data-kernel" path="vendor/qcom/opensource/data-kernel" remote="clo_vendor"/>
     <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" remote="clo_vendor"/>
     <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" remote="clo_vendor"/>
     <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager" remote="clo_vendor"/>
@@ -43,10 +43,10 @@
     <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="clo_vendor"/>
     <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="clo_vendor"/>
     <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" remote="clo_vendor"/>
-    <project name="platform/vendor/qcom/bengal" path="device/qcom/bengal" remote="clo_vendor"/>
-    <project name="platform/vendor/qcom/bengal_32" path="device/qcom/bengal_32" remote="clo_vendor"/>
-    <project name="platform/vendor/qcom/bengal_32go" path="device/qcom/bengal_32go" remote="clo_vendor"/>
+    <project name="platform/vendor/qcom/holi" path="device/qcom/holi" remote="clo_vendor"/>
     <project name="platform/vendor/qcom/kona" path="device/qcom/kona" remote="clo_vendor"/>
-    <project name="platform/vendor/qcom/lito" path="device/qcom/lito" remote="clo_vendor"/>
+    <project name="platform/vendor/qcom/lahaina" path="device/qcom/lahaina" remote="clo_vendor"/>
+    <project name="platform/vendor/qcom/opensource/datarmnet" path="vendor/qcom/opensource/datarmnet" remote="clo_vendor"/>
+    <project name="platform/vendor/qcom/opensource/datarmnet-ext" path="vendor/qcom/opensource/datarmnet-ext" remote="clo_vendor"/>
     <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" remote="clo_vendor"/>
 </manifest>
