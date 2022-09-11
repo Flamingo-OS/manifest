@@ -184,8 +184,8 @@
     <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />
 
-    <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" />
+    <!-- <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" /> -->
 
     <remove-project name="platform/vendor/qcom-opensource/system/bt" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="flamingo" />
