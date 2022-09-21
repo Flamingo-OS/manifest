@@ -46,6 +46,7 @@
 
     <!-- External -->
     <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" />
+    <project path="external/GmsCompatConfig" name="platform_external_GmsCompatConfig" remote="grapheneos" />
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />
     <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
     <project path="external/fastrpc" name="external_fastrpc" remote="flamingo" />
