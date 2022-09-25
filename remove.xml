@@ -41,6 +41,7 @@
     <remove-project name="device/qcom/common" />
     <remove-project name="device/qcom/sepolicy_vndr" />
     <remove-project name="device/qcom/vendor-common" />
+    <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/e2fsprogs" />
     <remove-project name="platform/external/fastrpc" />
     <remove-project name="platform/external/gptfdisk" />
