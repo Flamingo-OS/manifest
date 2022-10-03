@@ -56,7 +56,6 @@
     <!-- Framework -->
     <project path="frameworks/av" name="frameworks_av" remote="flamingo"/>
     <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
-    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="flamingo"/>
     <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
     <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="flamingo"/>
 
