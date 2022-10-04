@@ -6,15 +6,19 @@
         revision="13" />
 
     <!-- ART -->
+    <remove-project name="platform/art" />
     <project path="art" name="art" remote="flamingo"/>
 
     <!-- Bionic -->
+    <remove-project name="platform/bionic" />
     <project path="bionic" name="bionic" remote="flamingo"/>
 
     <!-- Recovery -->
+    <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="bootable_recovery" remote="flamingo"/>
 
     <!-- Build -->
+    <remove-project name="platform/build_repo" />
     <project path="build/make" name="build_make" remote="flamingo">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -25,86 +29,176 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
+    <remove-project name="platform/build/soong" />
     <project path="build/soong" name="build_soong" remote="flamingo">
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
     <!-- CTS -->
+    <remove-project name="platform/cts"/>
     <project path="cts" name="platform/cts" remote="aosp" />
 
     <!-- Device -->
     <project path="device/flamingo/sepolicy" name="device_flamingo_sepolicy" remote="flamingo" />
+
+    <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="device_qcom_common" remote="flamingo">
         <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     </project>
-    <project path="device/qcom/kernelscripts" name="device_qcom_kernelscripts" remote="flamingo">
+
+    <remove-project name="kernel/build" />
+    <project path="device/qcom/kernelscripts" name="device_qcom_kernelscripts" remote="flamingo" >
         <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
     </project>
+
+    <remove-project name="device/qcom/sepolicy_vndr" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="flamingo" />
+
+    <remove-project name="device/qcom/vendor-common" />
     <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="flamingo"/>
 
     <!-- External -->
     <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" />
     <project path="external/GmsCompatConfig" name="platform_external_GmsCompatConfig" remote="grapheneos" />
+
+    <remove-project name="platform/external/e2fsprogs" />
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />
+
     <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
+    <remove-project name="platform/external/fastrpc" />
     <project path="external/fastrpc" name="external_fastrpc" remote="flamingo" />
+
+    <remove-project name="platform/external/gptfdisk" />
     <project path="external/gptfdisk" name="external_gptfdisk" remote="flamingo" />
+
+    <remove-project name="platform/external/mksh" />
     <project path="external/mksh" name="external_mksh" remote="flamingo" />
 
     <!-- Framework -->
+    <remove-project name="platform/frameworks/av" />
     <project path="frameworks/av" name="frameworks_av" remote="flamingo"/>
+
+    <remove-project name="platform/frameworks/base" />
     <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
+
+    <remove-project name="platform/frameworks/native" />
     <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
+
+    <remove-project name="platform/frameworks/opt/net/wifi" />
     <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="flamingo"/>
 
     <!-- Hardware -->
     <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
+
+    <remove-project name="platform/hardware/libhardware" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="flamingo"/>
+
+    <remove-project name="platform/hardware/interfaces" />
     <project path="hardware/interfaces" name="hardware_interfaces" remote="flamingo"/>
+
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="flamingo" />
 
     <!-- Libcore -->
+    <remove-project name="platform/libcore" />
     <project path="libcore" name="libcore" remote="flamingo" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/Camera2"/>
     <project path="packages/apps/Camera" name="platform_external_Camera" remote="grapheneos" />
+
     <project path="packages/apps/FlamingoSettings" name="packages_apps_FlamingoSettings" remote="flamingo"/>
     <project path="packages/apps/FlamingoSystemUI" name="packages_apps_FlamingoSystemUI" remote="flamingo"/>
     <project path="packages/apps/GmsCompat" name="platform_packages_apps_GmsCompat" remote="grapheneos" />
+
+    <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="flamingo" />
+
+    <remove-project name="platform/packages/apps/Settings"/>
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="flamingo"/>
+
+    <remove-project name="platform/packages/apps/SettingsIntelligence"/>
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="flamingo"/>
+
+    <remove-project name="platform/packages/apps/ThemePicker"/>
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="flamingo"/>
+
+    <!-- <remove-project name="platform/packages/modules/adb"/>
+    <project path="packages/modules/adb" name="packages_modules_adb" remote="flamingo"/>-->
+
+    <remove-project name="platform/packages/modules/Bluetooth"/>
     <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="flamingo"/>
+
+    <remove-project name="platform/packages/modules/Connectivity"/>
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="flamingo"/>
+
+    <remove-project name="platform/packages/modules/NetworkStack"/>
     <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="flamingo"/>
+
+    <remove-project name="platform/packages/modules/Permission"/>
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="flamingo"/>
+
+    <remove-project name="platform/packages/modules/Wifi"/>
     <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="flamingo"/>
+
+    <remove-project name="platform/packages/providers/DownloadProvider" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="flamingo"/>
+
+    <remove-project name="platform/packages/services/Telecomm"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flamingo"/>
 
     <!-- System -->
+    <remove-project name="platform/system/core"/>
     <project path="system/core" name="system_core" remote="flamingo"/>
+
+    <remove-project name="platform/system/libhidl"/>
     <project path="system/libhidl" name="system_libhidl" remote="flamingo"/>
+
+    <remove-project name="platform/system/libziparchive"/>
     <project path="system/libziparchive" name="system_libziparchive" remote="flamingo"/>
+
+    <remove-project name="platform/system/memory/lmkd"/>
     <project path="system/memory/lmkd" name="system_memory_lmkd" remote="flamingo"/>
+
+    <remove-project name="platform/system/sepolicy"/>
     <project path="system/sepolicy" name="system_sepolicy" remote="flamingo"/>
+
+    <remove-project name="platform/system/update_engine"/>
     <project path="system/update_engine" name="system_update_engine" remote="flamingo"/>
 
-    <!-- Vendor -->
+    <!-- Vendor
+    <remove-project name="platform/vendor/codeaurora/telephony"/>
+    <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="flamingo" />-->
+
     <project path="vendor/flamingo" name="vendor_flamingo" remote="flamingo" />
     <project path="vendor/lawnchair" name="vendor_lawnchair" remote="flamingo" />
     <project path="vendor/prebuilts" name="vendor_prebuilts" remote="flamingo-gitlab" clone-depth="1" />
     <project path="vendor/qcom/common" name="vendor_qcom_common" remote="flamingo-gitlab" clone-depth="1" />
+
+    <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
     <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom-opensource_packages_apps_Bluetooth" remote="flamingo" />
+
+    <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="flamingo" />
+
+    <!-- <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="flamingo" /> -->
+
+    <remove-project name="platform/vendor/qcom-opensource/system/bt" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="flamingo" />
+
     <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="platform/vendor/qcom-opensource/wfd-commonsys" remote="clo_system" revision="refs/tags/LA.QSSI.11.0.r1-16900-qssi.0" />
+
+    <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="flamingo" />
+
+    <remove-project name="platform/vendor/qcom-opensource/power" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="flamingo" />
+
+    <remove-project name="platform/vendor/qcom-opensource/vibrator" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="flamingo" />
+
     <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="14" clone-depth="1" />
     <project path="vendor/support" name="vendor_support" remote="flamingo" />
     <project path="vendor/themes" name="vendor_themes" remote="flamingo" />
