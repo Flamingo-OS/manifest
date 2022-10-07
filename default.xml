@@ -2,7 +2,7 @@
     
     <remote name="github" fetch="ssh://git@github.com/" />
 
-    <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.13.0.r1-07100-qssi.0" />
+    <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.13.0.r1-07100.01-qssi.0" />
 
     <remote name="clo_vendor" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0" />
 
