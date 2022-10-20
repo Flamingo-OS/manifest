@@ -921,6 +921,7 @@
     <project name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" remote="clo_system" clone-depth="1" />
     <project name="platform/prebuilts/devtools" path="prebuilts/devtools" remote="clo_system" clone-depth="1" />
     <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="clo_system" clone-depth="1" />
+    <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="clo_system" clone-depth="1" />
     <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="clo_system" clone-depth="1" />
     <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="clo_system" clone-depth="1" />
     <project name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" remote="clo_system" clone-depth="1" />
