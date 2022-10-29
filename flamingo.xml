@@ -35,10 +35,6 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <!-- CTS -->
-    <remove-project name="platform/cts"/>
-    <project path="cts" name="platform/cts" remote="aosp" />
-
     <!-- Device -->
     <project path="device/flamingo/sepolicy" name="device_flamingo_sepolicy" remote="flamingo" />
 
