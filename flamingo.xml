@@ -79,6 +79,9 @@
     <remove-project name="platform/frameworks/base" />
     <project path="frameworks/base" name="frameworks_base" remote="flamingo"/>
 
+    <remove-project name="platform/frameworks/libs/modules-utils" />
+    <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="flamingo"/>
+
     <remove-project name="platform/frameworks/native" />
     <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
 
