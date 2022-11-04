@@ -58,6 +58,9 @@
     <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" />
     <project path="external/GmsCompatConfig" name="platform_external_GmsCompatConfig" remote="grapheneos" />
 
+    <remove-project name="platform/external/arm-optimized-routines" />
+    <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="flamingo"/>
+
     <remove-project name="platform/external/e2fsprogs" />
     <project path="external/e2fsprogs" name="external_e2fsprogs" remote="flamingo" />
 
