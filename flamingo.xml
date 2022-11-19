@@ -85,6 +85,9 @@
     <remove-project name="platform/frameworks/libs/modules-utils" />
     <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="flamingo"/>
 
+    <remove-project name="platform/frameworks/libs/systemui" />
+    <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="flamingo"/>
+
     <remove-project name="platform/frameworks/native" />
     <project path="frameworks/native" name="frameworks_native" remote="flamingo"/>
 
