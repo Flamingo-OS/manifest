@@ -25,7 +25,6 @@
     <project name="device/google/contexthub" remote="clo_system" />
     <project name="device/google/cuttlefish" remote="clo_system" />
     <project name="device/google/cuttlefish_prebuilts" remote="clo_system" />
-    <project name="device/google/trout" remote="clo_system" />
     <project name="device/google/vrservices" remote="clo_system" />
     <project name="device/google_car" remote="clo_system" />
     <project name="device/linaro/dragonboard" remote="clo_system" />

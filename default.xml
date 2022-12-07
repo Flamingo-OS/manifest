@@ -1,18 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    
     <remote name="github" fetch="ssh://git@github.com/" />
-    <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.13.0.r1-07600.03-qssi.0" />
+    <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.13.0.r1-08200-qssi.0" />
     <remote name="clo_vendor" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0" />
     <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-13.0.0_r3" />
     <remote name="flamingo" fetch="ssh://git@github.com/Flamingo-OS/" revision="A13" />
     <remote name="flamingo-gitlab" fetch="ssh://git@gitlab.com/Flamingo-OS/" revision="A13" />
     <remote name="flamingo-devices" fetch="ssh://git@github.com/FlamingoOS-Devices/" revision="A13" />
-    
     <include name="system.xml" />
     <include name="vendor.xml" />
     <include name="remove.xml" />
     <include name="flamingo.xml" />
     <include name="lineage.xml" />
     <include name="proton.xml" />
-
 </manifest>
