@@ -93,6 +93,9 @@
     <remove-project name="platform/frameworks/opt/net/wifi" />
     <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="flamingo"/>
 
+    <remove-project name="platform/frameworks/opt/telephony" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="flamingo"/>
+
     <!-- Hardware -->
     <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" remote="aosp" />
 
@@ -196,13 +199,16 @@
 
     <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="flamingo" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="flamingo" revision="A13-legacy"/>
+
+    <remove-project name="platform/vendor/qcom-opensource/lights" />
+    <project path="vendor/qcom/opensource/lights" name="vendor_qcom_opensource_lights" remote="flamingo" />
 
     <remove-project name="platform/vendor/qcom-opensource/power" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="flamingo" />
 
     <remove-project name="platform/vendor/qcom-opensource/vibrator" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="flamingo" />
-
 
     <remove-project name="platform/vendor/qcom-opensource/usb" />
     <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="flamingo" />
