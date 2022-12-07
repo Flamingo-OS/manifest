@@ -43,7 +43,6 @@
         <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     </project>
 
-    <remove-project name="kernel/build" />
     <project path="device/qcom/kernelscripts" name="device_qcom_kernelscripts" remote="flamingo" >
         <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
     </project>
