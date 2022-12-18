@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github" fetch="ssh://git@github.com/" />
-    <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.13.0.r1-08200-qssi.0" />
+    <remote name="clo_system" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.QSSI.13.0.r1-08300-qssi.0" />
     <remote name="clo_vendor" fetch="https://git.codelinaro.org/clo/la" revision="refs/tags/LA.VENDOR.1.0.r1-19000-WAIPIO.QSSI13.0" />
     <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-13.0.0_r3" />
     <remote name="flamingo" fetch="ssh://git@github.com/Flamingo-OS/" revision="A13" />
